@@ -197,11 +197,14 @@ nav[role="select"] ul {
   margin: 0;
   padding: 0;
 }
+.dark nav[role="select"] ul > li {
+   color: #fff;
+}
 nav[role="select"] ul > li {
   float: left;
   padding: .55em .45em;
   font-size: 1.2em;
-  background-color: #d3d3d3;
+  color: #000;
   text-align: center;
   transition-duration: .15s;
   transition-timing-function: ease-in-out;
