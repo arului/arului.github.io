@@ -449,12 +449,14 @@ header {
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
 	perspective-origin: 200px 40px;
+	margin-top: 7em;
 }
 
 .word span {
 	cursor: pointer;
 	display: inline-block;
-	font-size: 100px;
+	font-size: 5em;
+	font-weight: 700;
 	user-select: none;
 	line-height: .8;
 }
