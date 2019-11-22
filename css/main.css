@@ -578,9 +578,10 @@ div.footer {
     display: inline-block;
 }
 
-#lab_social_icon_footer .social-icons a:not(:last-child) {
+@media screen and (min-width: 640px) {
+   #lab_social_icon_footer .social-icons a:not(:last-child) {
     border-right: 2px solid #0d0d0d;
-
+   }
 }
 
 #lab_social_icon_footer .social:hover {
