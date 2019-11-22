@@ -1,88 +1,121 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Arul UI</title>
-  <meta name="description" content="Arul UI react angular arulkumar-lab arulkumar jquery flutter">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Arul UI</title>
+    <meta name="description" content="Arul UI react angular arulkumar-lab arulkumar jquery flutter">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="body-class">
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-  <div class="grid-container">
+<body id="body-content" class="body-class">
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<div class="grid-container">
     <div class="header">
-      <div class="logo-banner">
-        <div class="grid-3 left">
-            <div class="word">
-	<span>A</span>
-	<span>R</span>
-	<span>U</span>
-	<span>L</span>
-	<span>UI</span>
-</div>
+        <div class="logo-banner">
+            <div class="grid-3 left">
+                <div class="word">
+                    <span>A</span>
+                    <span>R</span>
+                    <span>U</span>
+                    <span>L</span>
+                    <span>UI</span>
+                </div>
+            </div>
+            <div class="grid-1 right">
+                <nav role="select">
+                    <ul>
+                        <li><a href="https://arului.github.io">Home</a></li>
+                        <li><a target="_blank" href="https://github.com/arulkumar-lab">Repo</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <select onchange="if (this.value) window.location.href = this.value;">
+                        <option value="#">Stream</option>
+                        <option value="#">Lab</option>
+                        <option value="#">Projects</option>
+                        <option value="#">About</option>
+                        <option value="#">Contact</option>
+                    </select>
+                </nav>
+                <div class='toggle' id='switch'>
+                    <div class='toggle-text-off'>Light</div>
+                    <div class='glow-comp'></div>
+                    <div class='toggle-button'></div>
+                    <div class='toggle-text-on'>Dark</div>
+                </div>
+            </div>
+
+
         </div>
-        <div class="grid-1 right">
-          <nav role="select">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Repo</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-            <select onchange="if (this.value) window.location.href = this.value;">
-              <option value="#">Stream</option>
-              <option value="#">Lab</option>
-              <option value="#">Projects</option>
-              <option value="#">About</option>
-              <option value="#">Contact</option>
-            </select>
-          </nav>
-          <div class='toggle' id='switch'>
-            <div class='toggle-text-off'>Light</div>
-            <div class='glow-comp'></div>
-            <div class='toggle-button'></div>
-            <div class='toggle-text-on'>Dark</div>
-          </div>
+
+    </div>
+    <div class="main-content margin-side">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <hr/>
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    </div>
+    <div id="lab_social_icon_footer" class="footer">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      <div class="container">
+        <div class="margin-side">
+          <a href="#body-content" class="fa-small"><i id="social-fb" class="fa fa-arrow-up fa-lg social"></i>Top</a>
+          <p>Footer display</p>
+        </div>
+        <div class="margin-side social-icons">
+          <a target="_blank" href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+          <a target="_blank" href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+          <a target="_blank" href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+          <a target="_blank" href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
       </div>
 
-
     </div>
-    
-    </div>
-    <div class="main-content">
-	    <h2>Lorem Ipsum</h2>
-	    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	    <hr/>
-	    <h2>Lorem Ipsum</h2>
-	    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	    
-	  </div>
-    <div class="footer">Footer</div>
-  </div>
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</div>
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 <script>
-    $('.toggle').click(function(e){
+    $('.toggle').click(function (e) {
         e.preventDefault();
         $(this).toggleClass('toggle-on');
         $(".body-class").toggleClass('dark');
