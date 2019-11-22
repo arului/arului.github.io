@@ -433,6 +433,13 @@ div.footer {
     -moz-box-shadow: 0 0 2em #ccc;
     -webkit-box-shadow: 0 0 2em #ccc;
 }
+
+.dark div.footer {
+    box-shadow: 0 0 2em #908a09;
+    -moz-box-shadow: 0 0 2em #908a09;
+    -webkit-box-shadow: 0 0 2em #908a09;
+}
+
 .grid-3 {
   width: 60%;
 }
