@@ -625,3 +625,62 @@ div.footer {
     font-weight: 400;
     color: #333;
 }
+
+
+.dark #lab_social_icon_footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark  #lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: #000;
+}
+
+.dark #lab_social_icon_footer .social-icons a {
+    color: #fff;
+    padding: 0 6rem 1rem 2rem;
+    display: inline-block;
+}
+
+@media screen and (min-width: 640px) {
+  .dark #lab_social_icon_footer .social-icons a:not(:last-child) {
+    border-right: 2px solid #fff;
+  }
+}
+
+.dark  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.dark #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+.dark #lab_social_icon_footer #social-fb:hover {
+    color: #a9a918;
+}
+
+.dark #lab_social_icon_footer #social-tw:hover {
+    color: #abab0b;
+}
+
+.dark #lab_social_icon_footer #social-gp:hover {
+    color: #d2d216;
+}
+
+.dark #lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+}
