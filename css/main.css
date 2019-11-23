@@ -470,6 +470,10 @@ div.footer {
 	margin-top: 7em;
 }
 
+.margin-side-xl {
+    margin: 0 11em;
+}
+
 .margin-side {
     margin: 0 3em;
 }
