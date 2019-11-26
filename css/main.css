@@ -214,8 +214,12 @@ nav[role="select"] ul > li {
   cursor: pointer;
 }
 nav[role="select"] ul > li:hover {
-  background-color: #eee;
+  background-color: #757575;
   color: #fff;
+}
+.dark nav[role="select"] ul > li:hover {
+  background-color: #e8cf18;
+  color: #0e0e0e;
 }
 nav[role="select"] ul > li > a {
   color: inherit;
@@ -251,7 +255,7 @@ header {
 #switch{
   width: 89px;
   height: 40px;
-  top: 2%;
+  margin-top: 5%;
   position: relative;
   margin-right: 0;
   float: right;
@@ -429,7 +433,7 @@ header {
 	font-family: 'Anton', sans-serif;
 	perspective: 1000px; 
 	perspective-origin: 200px 40px;
-	margin-top: 7em;
+	margin-top: 3em;
 }
 
 .margin-side-xl {
