@@ -393,7 +393,7 @@ header {
 }
 
 .logo-banner {
-  min-height: 12em;
+  min-height: 10em;
 }
 .logo-banner, div.footer {
   background: #e3e3e3;
