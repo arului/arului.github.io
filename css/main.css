@@ -223,35 +223,6 @@ nav[role="select"] ul > li > a {
   transition: inherit;
 }
 
-/* small screens */
-@media screen and (max-width: 44em) {
-  nav[role="select"] ul {
-    display: none;
-  }
-  nav[role="select"]:after {
-    position: absolute;
-    z-index: -1;
-    content: "Menu";
-    right: 0;
-    bottom: -1.75em;
-    background: rgba(174, 86, 168, 0.4);
-    padding: .15em .55em;
-  }
-  nav[role="select"] select {
-    display: block;
-    user-select: none;
-    cursor: pointer;
-    width: 100%;
-    padding: .55em .45em;
-    border: none;
-    background-color: rgba(174, 86, 168, 0.25);
-    font: 1.2em 'Exo', sans-serif;
-  }
-  .word span {
-    font-size: 3rem;
-  }
-}
-
 .dark .header,
 .dark .footer
 {
@@ -686,4 +657,33 @@ header {
 
 .dark #lab_social_icon_footer #social-em:hover {
     color: #f39c12;
+}
+
+/* small screens */
+@media screen and (max-width: 44em) {
+  nav[role="select"] ul {
+    display: none;
+  }
+  nav[role="select"]:after {
+    position: absolute;
+    z-index: -1;
+    content: "Menu";
+    right: 0;
+    bottom: -1.75em;
+    background: rgba(174, 86, 168, 0.4);
+    padding: .15em .55em;
+  }
+  nav[role="select"] select {
+    display: block;
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+    padding: .55em .45em;
+    border: none;
+    background-color: rgba(174, 86, 168, 0.25);
+    font: 1.2em 'Exo', sans-serif;
+  }
+  .word span {
+    font-size: 3rem;
+  }
 }
