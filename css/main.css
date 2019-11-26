@@ -673,9 +673,14 @@ header {
     content: "Menu";
     right: 0;
     bottom: -1.75em;
-    background: rgba(174, 86, 168, 0.4);
+    background: #05506f;
+    color: #fff; 
     padding: .15em .55em;
   }
+.dark nav[role="select"]:after {
+    background: #ecd216;
+    color: #000;
+}
   nav[role="select"] select {
     display: block;
     user-select: none;
