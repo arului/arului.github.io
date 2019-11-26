@@ -118,9 +118,7 @@ textarea {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
-  .word span {
-    font-size: 3rem;
-  }
+  
 }
 
 @media print,
@@ -248,6 +246,9 @@ nav[role="select"] ul > li > a {
     border: none;
     background-color: rgba(174, 86, 168, 0.25);
     font: 1.2em 'Exo', sans-serif;
+  }
+  .word span {
+    font-size: 3rem;
   }
 }
 
