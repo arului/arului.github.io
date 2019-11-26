@@ -224,10 +224,6 @@ nav[role="select"] ul > li > a {
 
 /* small screens */
 @media screen and (max-width: 44em) {
-  body {
-    margin: 1em 0;
-  }
-
   nav[role="select"] ul {
     display: none;
   }
