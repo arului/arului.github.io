@@ -260,7 +260,8 @@ nav[role="select"] ul > li > a {
 }
 .dark .grid-container, .dark .main-content, .dark .menu,
 .dark .side-panel{
-   background: #212020;	
+   background: #212020;
+   color: #fff;	
 }
 .header,
 .main-content,
@@ -425,18 +426,6 @@ header {
 }
 .logo-banner, div.footer {
   background: #e3e3e3;
-}
-
-div.footer {
-    box-shadow: 0 0 2em #ccc;
-    -moz-box-shadow: 0 0 2em #ccc;
-    -webkit-box-shadow: 0 0 2em #ccc;
-}
-
-.dark div.footer {
-    box-shadow: 0 0 2em #908a09;
-    -moz-box-shadow: 0 0 2em #908a09;
-    -webkit-box-shadow: 0 0 2em #908a09;
 }
 
 .grid-3 {
