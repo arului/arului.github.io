@@ -253,15 +253,14 @@ nav[role="select"] ul > li > a {
 }
 
 .dark .header,
-.dark .main-content,
-.dark .footer,
-.dark .menu,
-.dark .side-panel{
+.dark .footer
+{
   background: #060603;
   color: #ffffff;
 }
-.dark .grid-container{
-   background: #000;	
+.dark .grid-container, .dark .main-content, .dark .menu,
+.dark .side-panel{
+   background: #212020;	
 }
 .header,
 .main-content,
