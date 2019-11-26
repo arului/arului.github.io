@@ -677,10 +677,7 @@ header {
     color: #fff; 
     padding: .15em .55em;
   }
-.dark nav[role="select"]:after {
-    background: #ecd216;
-    color: #000;
-}
+
   nav[role="select"] select {
     display: block;
     user-select: none;
@@ -688,9 +685,14 @@ header {
     width: 100%;
     padding: .55em .45em;
     border: none;
-    background-color: rgba(174, 86, 168, 0.25);
+    background-color: #05506f;
+    color: #fff; 
     font: 1.2em 'Exo', sans-serif;
   }
+  .dark nav[role="select"] select {
+    background: #ecd216;
+    color: #000;
+}
   .word span {
     font-size: 3rem;
   }
