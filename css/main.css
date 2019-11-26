@@ -282,7 +282,7 @@ header {
   width: 35px;
   bottom: 4px;
   right: 45px;
-  background-color: #444249;
+  background-color: #000;
   border-radius: 19px;
   cursor: pointer;
   -webkit-transition: all .3s .1s, width .1s, top .1s, bottom .1s;
