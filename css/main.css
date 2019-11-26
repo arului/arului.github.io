@@ -667,17 +667,6 @@ header {
   nav[role="select"] ul {
     display: none;
   }
-  nav[role="select"]:after {
-    position: absolute;
-    z-index: -1;
-    content: "Menu";
-    right: 0;
-    bottom: -1.75em;
-    background: #05506f;
-    color: #fff; 
-    padding: .15em .55em;
-  }
-
   nav[role="select"] select {
     display: block;
     user-select: none;
