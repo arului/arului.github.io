@@ -252,6 +252,9 @@ header {
   width: 89px;
   height: 40px;
   top: 2%;
+  position: relative;
+  margin-right: 0;
+  float: right;
 }
 
 .toggle{
