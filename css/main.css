@@ -619,10 +619,12 @@ header {
 
 .fa-small {
     font-size: 1.2rem;
-    font-weight: 400;
-    color: #333;
+    font-weight: 400;    
 }
 
+.dark .fa-small {
+  color: #fff;
+}
 
 .dark #lab_social_icon_footer {
     background-color: #000;
