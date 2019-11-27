@@ -3,8 +3,7 @@ var cacheName = 'v1';
 
 // Default files to always cache
 var cacheFiles = [
-	'./',
-	'https://arului.github.io/',
+	'./',	
 	'./index.html',
 	'./js/main.js',
 	'./css/main.css',
