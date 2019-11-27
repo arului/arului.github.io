@@ -45,7 +45,8 @@ $(document).ready(function() {
       span.classList.add("active");
     }, 750 * (idx + 1));
   });
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+  }
 });
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
-}
+
