@@ -1,12 +1,23 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "ArulUI",
+  "name": "Arul UI Page",
   "icons": [{
-    "src": "icon.png",
-    "type": "image/png",
-    "sizes": "192x192"
-  }],
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "tile.png",
+      "type": "image/png",
+      "sizes": "558x558"
+    },
+    {
+      "src": "tile-wide.png",
+      "type": "image/png",
+      "sizes": "558x270"
+    }],
   "start_url": "/?utm_source=homescreen",
   "background_color": "#fafafa",
+  "display": "standalone",  
   "theme_color": "#fafafa"
 }
