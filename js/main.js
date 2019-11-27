@@ -46,7 +46,7 @@ $(document).ready(function() {
     }, 750 * (idx + 1));
   });
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js');
+    navigator.serviceWorker.register('./service-worker.js');
   }
 });
 
