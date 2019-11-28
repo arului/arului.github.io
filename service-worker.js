@@ -54,9 +54,7 @@ var offlineFundamentals = [
   "index.html",
   "./",
   "./js/main.js",
-  "./css/main.css",
-  "./css/font-awesome.css",
-  "./css/fonts/*.*",
+  "./css/main.css",  
   "./css/normalize.css",
   "https://code.jquery.com/jquery-3.4.1.min.js",
   "https://fonts.googleapis.com/css?family=Anton|Roboto"
