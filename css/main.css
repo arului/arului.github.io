@@ -195,29 +195,29 @@ textarea {
     }
 }
 
-nav[role="select"] {
+nav[class="select"] {
     width: 100%;
     position: relative;
     color: #000;
     top: 7.23em;
 }
 
-nav[role="select"] > select {
+nav[class="select"] > select {
     display: none;
 }
 
-nav[role="select"] ul {
+nav[class="select"] ul {
     width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.dark nav[role="select"] ul > li {
+.dark nav[class="select"] ul > li {
     color: #fff;
 }
 
-nav[role="select"] ul > li {
+nav[class="select"] ul > li {
     float: left;
     padding: .55em .45em;
     font-size: 1.2em;
@@ -229,17 +229,17 @@ nav[role="select"] ul > li {
     cursor: pointer;
 }
 
-nav[role="select"] ul > li:hover {
+nav[class="select"] ul > li:hover {
     background-color: #757575;
     color: #fff;
 }
 
-.dark nav[role="select"] ul > li:hover {
+.dark nav[class="select"] ul > li:hover {
     background-color: #e8cf18;
     color: #0e0e0e;
 }
 
-nav[role="select"] ul > li > a {
+nav[class="select"] ul > li > a {
     color: inherit;
     text-decoration: none;
     transition: inherit;
@@ -705,11 +705,11 @@ header {
 
 /* small screens */
 @media screen and (max-width: 44em) {
-    nav[role="select"] ul {
+    nav[class="select"] ul {
         display: none;
     }
 
-    nav[role="select"] select {
+    nav[class="select"] select {
         display: block;
         user-select: none;
         cursor: pointer;
@@ -721,7 +721,7 @@ header {
         font: 1.2em 'Exo', sans-serif;
     }
 
-    .dark nav[role="select"] select {
+    .dark nav[class="select"] select {
         background: #ecd216;
         color: #000;
     }
