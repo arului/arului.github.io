@@ -56,7 +56,7 @@ self.addEventListener("install", function(event) {
            cache, after making requests for them.
         */
         return cache.addAll(offlineFundamentals);
-      })
+      }).then(self.skipWaiting())
       .then(function() {
         console.log('WORKER: install completed');
       })
@@ -205,7 +205,7 @@ self.addEventListener("activate", function(event) {
               return caches.delete(key);
             })
         );
-      })
+      }).then(() => self.clients.claim())
       .then(function() {
         console.log('WORKER: activate completed.');
       })
