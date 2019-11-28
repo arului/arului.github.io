@@ -1,5 +1,3 @@
-import "../workbox-sw.js";
-
 $(document).ready(function() {
   window.ga = function() {
     ga.q.push(arguments);
