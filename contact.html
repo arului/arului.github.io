@@ -65,9 +65,22 @@
     <main role="main">
         <div class="main-content margin-side">
             <h2>Contact US</h2>
-            <form>
-                <label aria-labelledBy="fname" for="fname">Name</label>
-                <input name="fname" id="fname" type="text" maxlength="50"/>
+           <form>
+                <div class="form-group">
+                            <label aria-labelledby="fname" for="fname">Name</label>
+                            <input name="fname" id="fname" type="text" maxlength="50">
+                </div>
+                <div class="form-group">
+                            <label aria-labelledby="email" for="email">Email</label>
+                            <input name="email" id="email" type="email" maxlength="50">
+                </div>
+                <div class="form-group">
+                            <label aria-labelledby="desc" for="desc">Name</label>
+                            <input name="desc" id="desc" type="text" maxlength="50">
+                </div>
+                <div class="form-group">                
+                            <input name="submit" id="submit" type="submit" value="Submit">
+                </div>
             </form>
 
         </div>
