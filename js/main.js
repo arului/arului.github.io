@@ -46,8 +46,11 @@ $(document).ready(function() {
     }, 750 * (idx + 1));
   });
   $(".select-menu").change( function(event) {
-    if(event !== null && event.currentTarget !== null && event.currentTarget.value !== null && event.currentTarget.value !== ""){
+    if(event !== null && event.currentTarget !== null && event.currentTarget.value !== null && event.currentTarget.value !== ""
+      && event.currentTarget.value.indexOf("lab") > 0){
       $('<a href="'+ event.currentTarget.value +'" target="_blank">External Link</a>')[0].click();
+    }else{
+    window.location = event.currentTarget.value;
     }
   });
 });
