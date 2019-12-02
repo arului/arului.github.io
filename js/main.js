@@ -46,7 +46,9 @@ $(document).ready(function() {
     }, 750 * (idx + 1));
   });
   $(".select-menu").change( function(event) {
-    console.log(event);
+    if(event !== null && event.currentTarget !== null && event.currentTarget.value !== null && event.currentTarget.value !== ""){
+      window.location = event.currentTarget.value;
+    }
   });
 });
 
