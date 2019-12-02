@@ -47,7 +47,7 @@ $(document).ready(function() {
   });
   $(".select-menu").change( function(event) {
     if(event !== null && event.currentTarget !== null && event.currentTarget.value !== null && event.currentTarget.value !== ""){
-      window.location = event.currentTarget.value;
+      $('<a href="'+ event.currentTarget.value +'" target="_blank">External Link</a>')[0].click();
     }
   });
 });
