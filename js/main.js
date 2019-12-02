@@ -45,7 +45,7 @@ $(document).ready(function() {
       span.classList.add("active");
     }, 750 * (idx + 1));
   });
-  $(.select-menu).change( function(event) {
+  $(".select-menu").change( function(event) {
     console.log(event);
   });
 });
