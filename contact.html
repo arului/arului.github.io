@@ -5,11 +5,11 @@
     <title>Arul UI</title>
     <meta name="description" content="Arul UI react angular arulkumar-lab arulkumar jquery flutter">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="theme-color" content="#317EFB"/>
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -35,14 +35,15 @@
                     </div>
                 </div>
                 <div class="grid-1 right">
-                    <nav role="select" role="navigation">
+                    <nav role="navigation" class="select">
                         <ul>
-                            <li><a href="https://arului.github.io">Home</a></li>
-                            <li><a target="_blank" href="https://github.com/arulkumar-lab">Repo</a></li>
-                            <li><a href="https://arului.github.io/about.html">About</a></li>
-                            <li><a href="https://arului.github.io/contact.html">Contact</a></li>
-                        </ul>
-                        <select onchange="if (this.value) window.location.href = this.value;">
+                            <span class="invisible" aria-hidden="true">Navigation Links</span>
+                            <li><a aria-label="Home page" href="https://arului.github.io">Home</a></li>
+                            <li><a aria-label="Github Repository page" rel="noopener noreferrer" target="_blank" href="https://github.com/arulkumar-lab">Repo</a></li>
+                            <li><a aria-label="About you page" href="https://arului.github.io/about.html">About</a></li>
+                            <li><a aria-label="Contact page" vhref="https://arului.github.io/contact.html">Contact</a></li>
+                        </ul>                        
+                        <select aria-label="Choose navigation links" onchange="if (this.value) window.location.href = this.value;">
                             <option value="#">Menu</option>
                             <option value="https://arului.github.io">Home</option>
                             <option value="https://github.com/arulkumar-lab">Repo</option>
@@ -50,19 +51,20 @@
                             <option value="https://arului.github.io/contact.html">Contact</option>
                         </select>
                     </nav>
-                    <div class='toggle' id='switch'>
-                        <div class='toggle-text-off'>Dark</div>
+                    <div aria-label="Select page theme" class='toggle' id='switch'>
+                        <div aria-label="dark mode" class='toggle-text-off'>Dark</div>
                         <div class='glow-comp'></div>
                         <div class='toggle-button'></div>
-                        <div class='toggle-text-on'>Light</div>
+                        <div aria-label="plain white mode" class='toggle-text-on'>Light</div>
                     </div>
                 </div>
             </div>
         </div>
+        <h1 class="invisible">Arul UI page</h1>
     </header>
-    <main>
+    <main role="main">
         <div class="main-content margin-side">
-            <h2>Contact</h2>
+            <h2>Lorem Ipsum</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
@@ -95,34 +97,34 @@
         </div>
     </main>
     <footer role="contentinfo">
-        <div id="lab_social_icon_footer" class="footer">
-            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <div id="lab_social_icon_footer" class="footer">            
             <div class="container">
                 <div class="margin-side">
-                    <a href="#body-content" class="fa-small"><i id="social-fb"
+                    <a href="#body-content" class="fa-small"><i id="scroll-top"
                                                                 class="fa fa-arrow-up fa-lg social"></i>Top</a>
-                    <p>Footer display</p>
+                    <h2>Footer display</h2>
                 </div>
                 <div class="margin-side social-icons">
-                    <a target="_blank" href="https://www.facebook.com/bootsnipp"><i id="social-fb"
+                    <a aria-label="Facebook" rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/bootsnipp"><i id="social-fb"
                                                                                     class="fa fa-facebook-square fa-3x social"></i></a>
-                    <a target="_blank" href="https://twitter.com/bootsnipp"><i id="social-tw"
+                    <a aria-label="Twitter" rel="noopener noreferrer" target="_blank" href="https://twitter.com/bootsnipp"><i id="social-tw"
                                                                                class="fa fa-twitter-square fa-3x social"></i></a>
-                    <a target="_blank" href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
+                    <a aria-label="Google Plus" rel="noopener noreferrer" target="_blank" href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
                                                                                          class="fa fa-google-plus-square fa-3x social"></i></a>
-                    <a target="_blank" href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    <a aria-label="Email" rel="noopener noreferrer" target="_blank" href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
                 </div>
             </div>
 
         </div>
     </footer>
 </div>
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>   
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+    <script src="./workbox-sw.js"></script>
 <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 </html>
