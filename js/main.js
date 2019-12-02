@@ -14,6 +14,7 @@ $(document).ready(function() {
     typeof localStorage.getItem("theme") !== "undefined"
   ) {
     $("#body-content").toggleClass(localStorage.getItem("theme"));
+    $("#switch").addClass("toggle-on");
   }
 
   $(".toggle").click(function(e) {
