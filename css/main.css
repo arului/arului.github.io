@@ -318,8 +318,8 @@ header {
     bottom: 3px;
     right: 3px;
     border-radius: 23px;
-    background-color: #89c2da;
-    box-shadow: 0 0 16px #4b7a8d;
+    background-color: #dcdfe0;
+    box-shadow: 0 0 16px #dadcdc;
     -webkit-transition: all .2s .1s, right .1s;
     transition: all .2s .1s, right .1s;
 }
@@ -346,7 +346,7 @@ header {
 }
 
 .toggle-on .toggle-text-on {
-    color: #3b6a7d;
+    color: #000;
     -webkit-transition: color .3s .15s;
     transition: color .3s .15s;
 }
