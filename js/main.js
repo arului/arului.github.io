@@ -14,7 +14,7 @@ $(document).ready(function() {
     typeof localStorage.getItem("theme") !== "undefined"
   ) {
     $("#body-content").toggleClass(localStorage.getItem("theme"));
-    $("#switch").addClass("toggle-on");
+    $("#switch").toggleClass(localStorage.getItem("toggle-on"));
   }
 
   $(".toggle").click(function(e) {
@@ -25,8 +25,10 @@ $(document).ready(function() {
       if (localStorage !== null) {
         if ($("#body-content").hasClass("dark")) {
           localStorage.setItem("theme", "dark");
+          localStorage.setItem("toggle-on", "toggle-on");
         } else {
           localStorage.setItem("theme", "");
+          localStorage.setItem("toggle-on", "");
         }
       }
     }, 1000);
