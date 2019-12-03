@@ -767,7 +767,11 @@ header {
         font-size: 3rem;
     }
   
-    .form-group label, .form-group input, .form-group textarea, .form-group input[type="submit"] {
+    .form-group label, .form-group input, .form-group textarea {
         width: 100%;
+    }
+  .form-group input[type="submit"] {
+        width: 100%;
+        margin-left: 0;
     }
 }
