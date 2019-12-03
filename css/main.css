@@ -249,6 +249,39 @@ nav[class="select"] ul > li > a {
     transition: inherit;
 }
 
+.form-group {
+    margin: 1em 2em 1.5em;
+}
+
+.form-group label{
+    width: 15%;
+    display: inline-block;
+}
+
+.form-group input{
+    width: 45%;
+    display: inline-block;
+    border: 1px solid #101010;
+}
+
+.form-group textarea{
+    width: 45%;
+    height: 5em;
+    display: inline-block;
+    border: 1px solid #101010;
+}
+
+.form-group input[type="submit"]{
+    margin-left: 5.1em;
+    width: 18%;
+    height: 2em;
+    display: inline-block;
+    background-color: #424040;
+    color: #fff;
+    font-weight: 700;
+}
+
+
 .dark .header,
 .dark .footer {
     background: #060603;
@@ -733,36 +766,8 @@ header {
     .word span {
         font-size: 3rem;
     }
-}
-
-.form-group {
-    margin: 1em 2em 1.5em;
-}
-
-.form-group label{
-    width: 15%;
-    display: inline-block;
-}
-
-.form-group input{
-    width: 45%;
-    display: inline-block;
-    border: 1px solid #101010;
-}
-
-.form-group textarea{
-    width: 45%;
-    height: 5em;
-    display: inline-block;
-    border: 1px solid #101010;
-}
-
-.form-group input[type="submit"]{
-    margin-left: 5.1em;
-    width: 18%;
-    height: 2em;
-    display: inline-block;
-    background-color: #424040;
-    color: #fff;
-    font-weight: 700;
+  
+    .form-group label, .form-group input, .form-group textarea, .form-group input[type="submit"] {
+        width: 100%;
+    }
 }
