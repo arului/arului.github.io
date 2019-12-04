@@ -6,7 +6,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 100%;
     line-height: 1.4;
 }
 
@@ -459,10 +459,12 @@ header {
 .grid-container main > div,
 .grid-container footer > div {
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: left;
-    font-size: 1.4rem;
+    text-align: left;    
 }
-
+.grid-container .main-content div,
+.grid-container .main-content p {
+  font-weight: 1.3rem;
+}
 .dark .logo-banner {
     background: #000;
     min-height: 10em;
@@ -624,7 +626,7 @@ header {
 
 #lab_social_icon_footer .social-icons a {
     color: #333;
-    padding: 0 6rem 1rem 2rem;
+    padding: 0 5rem 1rem 2rem;
     display: inline-block;
 }
 
