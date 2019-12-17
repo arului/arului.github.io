@@ -777,3 +777,61 @@ header {
         margin-left: 0;
     }
 }
+
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+.margin-topbottom-clear{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#pagin li a.current {
+    color: #171717 !important;
+    font-weight: 700;
+}
+
+#pagin li {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    background: #93b576;
+}
+#pagin li a {
+    color: #fff;
+}
+#pagin li:hover {
+    background: #0f5426;
+    color: #fff !important;
+}
+#pagin li.prev {
+    cursor: pointer;
+    width: 70px !important;
+    color: #fff;
+}
+
+#pagin li.next {
+    cursor: pointer;
+    width: 70px !important;
+    color: #fff;
+}
+
+.last{
+    cursor:pointer;
+    margin-left:5px;
+}
+
+.first{
+    cursor:pointer;
+    margin-right:5px;
+}
+#pagin {
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+}
