@@ -75,7 +75,7 @@ $(document).ready(function() {
 
   var prev = $("<li/>")
     .addClass("prev")
-    .html('<i class="fa fa-backward">&nbsp;Prev')
+    .html('<i class="fa fa-backward">')
     .click(function() {
       startPage -= 3;
       incremSlide -= 3;
@@ -87,7 +87,7 @@ $(document).ready(function() {
 
   var next = $("<li/>")
     .addClass("next")
-    .html('Next&nbsp;<i class="fa fa-forward">')
+    .html('<i class="fa fa-forward">')
     .click(function() {
       startPage += 3;
       incremSlide += 3;
