@@ -789,6 +789,12 @@ header {
 #pagin li a.current {
     color: #171717 !important;
     font-weight: 700;
+    text-decoration: underline;
+}
+.dark #pagin li a.current {
+    color: #d4d32b !important;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 #pagin li {
@@ -796,37 +802,60 @@ header {
 }
 #pagin li a {
     display: inline-block;
-    color: #fff;
     height: 40px;
     width: 40px;
     padding: 5px;
     text-align: center;
+    text-decoration: none;
+}
+#pagin li a {
+    color: #fff;
     background: #93b576;
 }
+.dark #pagin li a {
+    color: #fff;
+    background: #000;
+}
+
+
 #pagin li a:hover,
 #pagin li.next:hover,
 #pagin li.prev:hover{
     background: #0f5426;
     color: #fff !important;
 }
+.dark #pagin li a:hover,
+.dark #pagin li.next:hover,
+.dark #pagin li.prev:hover{
+    background: #eee !important;
+    color: #000 !important;
+}
 #pagin li.prev {
     cursor: pointer;
     width: 80px !important;
-    color: #fff;
     height: 40px;
     text-align: center;
     padding: 5px;
+}
+
+#pagin li.prev,
+#pagin li.next{
+    color: #fff;
     background: #93b576;
+}
+
+.dark #pagin li.prev,
+.dark #pagin li.next{
+    color: #fff;
+    background: #000;
 }
 
 #pagin li.next {
     cursor: pointer;
     width: 80px !important;
-    color: #fff;
     height: 40px;
     text-align: center;
     padding: 5px;
-    background: #93b576;
 }
 
 .last{
@@ -841,7 +870,6 @@ header {
 #pagin {
     display: flex;
     justify-content: center;
-    background: white;
     margin-left: 15%;
     margin-right: 15%;
     padding: 0;
