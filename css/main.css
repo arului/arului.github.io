@@ -793,29 +793,40 @@ header {
 
 #pagin li {
     display: inline-block;
+}
+#pagin li a {
+    display: inline-block;
+    color: #fff;
     height: 40px;
     width: 40px;
     padding: 5px;
     text-align: center;
     background: #93b576;
 }
-#pagin li a {
-    color: #fff;
-}
-#pagin li:hover {
+#pagin li a:hover,
+#pagin li.next:hover,
+#pagin li.prev:hover{
     background: #0f5426;
     color: #fff !important;
 }
 #pagin li.prev {
     cursor: pointer;
-    width: 70px !important;
+    width: 80px !important;
     color: #fff;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    background: #93b576;
 }
 
 #pagin li.next {
     cursor: pointer;
-    width: 70px !important;
+    width: 80px !important;
     color: #fff;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    background: #93b576;
 }
 
 .last{
