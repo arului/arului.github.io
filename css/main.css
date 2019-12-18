@@ -802,7 +802,7 @@ header {
 }
 #pagin li a {
     display: inline-block;
-    height: 40px;
+    height: 25px;
     width: 40px;
     padding: 5px;
     text-align: center;
@@ -833,7 +833,7 @@ header {
 #pagin li.prev {
     cursor: pointer;
     width: 80px !important;
-    height: 40px;
+    height: 25px;
     text-align: center;
     padding: 5px;
 }
@@ -853,7 +853,7 @@ header {
 #pagin li.next {
     cursor: pointer;
     width: 80px !important;
-    height: 40px;
+    height: 25px;
     text-align: center;
     padding: 5px;
 }
