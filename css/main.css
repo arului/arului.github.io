@@ -790,11 +790,13 @@ header {
     color: #171717 !important;
     font-weight: 700;
     text-decoration: underline;
+    background: #39a95b;
 }
 .dark #pagin li a.current {
     color: #d4d32b !important;
     font-weight: 700;
     text-decoration: underline;
+    background: #4c5850;
 }
 
 #pagin li {
