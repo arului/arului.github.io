@@ -876,3 +876,9 @@ header {
     margin-right: 15%;
     padding: 0;
 }
+blockquote {
+  font-size: .5em;
+  background: #eee;
+  margin: 5px;
+  color: #000;
+}
