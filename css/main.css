@@ -823,7 +823,7 @@ header {
 #pagin li a:hover,
 #pagin li.next:hover,
 #pagin li.prev:hover{
-    background: #0f5426;
+    background: #747775;
     color: #fff !important;
 }
 .dark #pagin li a:hover,
