@@ -1,0 +1,33 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://arului.github.io/</title>
+  <link>https://arului.github.io/</link>
+
+<item>
+     <link>https://arului.github.io/</link>
+     <title>Arul UI</title>
+     <description>Arul UI react angular arulkumar-lab arulkumar jquery flutter</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://arului.github.io/about.html</link>
+     <title>Arul UI</title>
+     <description>Arul UI react angular arulkumar-lab arulkumar jquery flutter</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://arului.github.io/contact.html</link>
+     <title>Arul UI</title>
+     <description>Arul UI react angular arulkumar-lab arulkumar jquery flutter</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
