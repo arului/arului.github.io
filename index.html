@@ -93,30 +93,35 @@
 
                 <p>JSON schema is very simple and organize the model object. Developing applications are loosely coupled to maintain very easily. JSON object transferring in-between front-end and micro-services application layer. JSON schema validation to maintain the  clear, human-readable, and machine-readable documentation. Because data objects performing the validation and we known the object types for doing business method operations. Once the model has been solidified, enforce some standards and take advantage of both flexibility of the document model along with data validation.</p>
 				
-				<p>
-				<blockquote>{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/product.schema.json",
-  "title": "Product",
-  "description": "A product from Acme's catalog",
-  "type": "object",
-  "properties": {
-    "productId": {
-      "description": "The unique identifier for a product",
-      "type": "integer"
-    }
-  },
-  "required": [ "productId" ]
-}
-
-<strong>input:</strong>
-{
-	"productId":123
-}
-<blockquote>
-Ref: https://www.jsonschemavalidator.net/
-				</p>
-            </div>
+ <p>
+	<blockquote>
+	<pre>
+	<code>
+	{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://example.com/product.schema.json",
+	"title": "Product",
+	"description": "A product from Acme's catalog",
+	"type": "object",
+	"properties": {
+		"productId": {
+		"description": "The unique identifier for a product",
+		"type": "integer"
+		}
+	},
+	"required": [ "productId" ]
+	}
+	
+	<strong>input:</strong>
+	{
+		"productId":123
+	}
+	</code>
+	</pre>
+	</blockquote>
+	Ref: https://www.jsonschemavalidator.net/
+ </p>
+</div>
             <div class="line-content">
                 <h2 class="margin-bottom-0">Topic Section 2</h2>
                 <h6 class="margin-topbottom-clear"><strong><i>Dated: 17th Dec 2019</i></strong></h6>
