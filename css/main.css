@@ -877,8 +877,9 @@ header {
     padding: 0;
 }
 blockquote {
-  font-size: .5em;
-  background: #eee;
-  margin: 5px;
-  color: #000;
+      font-size: .5em;
+    background: #eee;
+    margin: 5px;
+    color: #000;
+    box-shadow: 1px 1px 8px 2px;
 }
