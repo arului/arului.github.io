@@ -790,7 +790,7 @@ header {
     color: #171717 !important;
     font-weight: 700;
     text-decoration: underline;
-    background: #39a95b;
+    background: #b3b9b5;
 }
 .dark #pagin li a.current {
     color: #d4d32b !important;
@@ -812,7 +812,7 @@ header {
 }
 #pagin li a {
     color: #fff;
-    background: #93b576;
+    background: #424242;
 }
 .dark #pagin li a {
     color: #fff;
@@ -843,7 +843,7 @@ header {
 #pagin li.prev,
 #pagin li.next{
     color: #fff;
-    background: #93b576;
+    background: #121312;
 }
 
 .dark #pagin li.prev,
