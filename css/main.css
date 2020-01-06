@@ -887,3 +887,6 @@ blockquote {
 .social-icons p{
   font-size: 7px;
 }
+.xsmall {
+  font-size: .5em;
+}
