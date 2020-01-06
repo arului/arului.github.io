@@ -1,5 +1,8 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
+Chef:Arul
+Contact: arul.ui.dev@gmail.com
+From:Glasgow, Scotland, UK
 
 # TEAM
 
@@ -10,6 +13,6 @@
     <name>
 
 # TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+Doctype:HTML5
+CSS3, HTML5
+Apache Server Configs, jQuery, Modernizr, Normalize.css
