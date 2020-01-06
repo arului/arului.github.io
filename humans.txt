@@ -1,6 +1,6 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
-Chef:Arul
+UI developer:Arul
 Contact: arul.ui.dev@gmail.com
 From:Glasgow, Scotland, UK
 
