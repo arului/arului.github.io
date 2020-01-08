@@ -141,5 +141,9 @@ $(document).ready(function() {
     $(this).addClass("current");
     showPage(parseInt($(this).text()));
   });
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-155763128-1');  
 });
 
