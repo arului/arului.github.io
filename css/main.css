@@ -890,3 +890,9 @@ blockquote {
 .grid-container .main-content .xsmall {
   font-size: .5em;
 }
+.line-content a {
+    color: blue;
+}
+.dark .line-content a {
+    color: yellow;
+}
