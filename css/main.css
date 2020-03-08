@@ -223,6 +223,7 @@ nav[class="select"] ul {
 
 .dark nav[class="select"] ul > li {
     color: #fff;
+  border-bottom: 10px solid #77bad4;
 }
 
 nav[class="select"] ul > li {
