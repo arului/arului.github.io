@@ -311,6 +311,12 @@ header {
     display: inline-block;
     width: 100%;
 }
+.menu-sec {
+    margin-top: 5em;
+    float: left;
+    width: 100%;
+    display: inline;
+}
 
 #switch {
     width: 89px;
@@ -319,7 +325,8 @@ header {
     position: relative;*/
     margin-right: 0;
     float: right;
-  display: inline-block;
+  display: block;
+  margin-top: 1em;
 }
 
 .toggle {
