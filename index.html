@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <!--link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css"-->
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <meta name="theme-color" content="#fafafa">
 </head>
@@ -37,12 +37,14 @@
                     </div>
                 </div>
                 <div class="grid-1 right">
-                    <nav role="navigation" class="select">
+                    <div class="menu-sec">
+			<nav role="navigation" class="select">
                         <ul>
                             <li><a aria-label="Home page" href="/">Home</a></li>
                             <li><a aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
                                    href="https://github.com/arulkumar-lab">Repo</a></li>
                             <li><a aria-label="About you page" href="/about.html">About</a></li>
+			    <li><a aria-label="Services page" href="/services.html">Services</a></li>
                             <li><a aria-label="Contact page" href="/contact.html">Contact</a></li>
                         </ul>
                         <select class="select-menu" aria-label="Choose navigation links">
@@ -53,6 +55,7 @@
                             <option value="/contact.html">Contact</option>
                         </select>
                     </nav>
+			</div>
                     <div aria-label="Select page theme" class='toggle' id='switch'>
                         <div aria-label="dark mode" class='toggle-text-off'>Dark</div>
                         <div class='glow-comp'></div>
