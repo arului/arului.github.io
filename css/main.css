@@ -200,7 +200,7 @@ textarea {
 }
 
 body {
-  marigin: 0;
+  margin: 0;
   padding: 0;
 }
 nav[class="select"] {
@@ -511,6 +511,7 @@ header {
     perspective: 1000px;
     perspective-origin: 200px 40px;
     margin-top: 3em;
+  margin-left: 1em;
 }
 
 .margin-side-xl {
