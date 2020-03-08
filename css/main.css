@@ -199,6 +199,10 @@ textarea {
     }
 }
 
+body {
+  marigin: 0;
+  padding: 0;
+}
 nav[class="select"] {
     width: 100%;
     position: relative;
