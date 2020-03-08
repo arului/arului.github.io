@@ -205,9 +205,9 @@ body {
 }
 nav[class="select"] {
     width: 100%;
-    position: relative;
-    color: #000;
-    top: 7.23em;
+  color: #000;  
+  /*position: relative;    
+    top: 7.23em;*/
 }
 
 nav[class="select"] > select {
@@ -315,10 +315,11 @@ header {
 #switch {
     width: 89px;
     height: 40px;
-    margin-top: 5%;
-    position: relative;
+    /*margin-top: 5%;
+    position: relative;*/
     margin-right: 0;
     float: right;
+  display: inline-block;
 }
 
 .toggle {
