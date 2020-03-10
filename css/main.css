@@ -1128,3 +1128,7 @@ blockquote {
     margin: 0;
   }
 }
+
+.main-content #root div {
+    font-size: 1rem;
+}
