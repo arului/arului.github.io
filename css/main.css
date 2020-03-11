@@ -1213,3 +1213,9 @@ h3.publish span {
 .dark h3.publish span {
     color: #3f94bd;
 }
+h2.title {
+    margin: 0 0 .2em;
+    font-size: 1.9em;
+    font-weight: 700;
+    text-align: left;
+}
