@@ -1170,14 +1170,14 @@ li.liListItem {
     color: #000;
 }
 .info-container a:hover {
-    color: #3939dc;
+  color: #fff;
 }
 .dark .info-container a {
-    color: #fff;    
+  color: #3939dc;    
 }
 .dark .info-container a {
-    color: #fff;    
+    color: #6c6ce0;
 }
-.dark .info-container a:hover {
-    color: #6c6ce0;    
+.dark .info-container a:hover {    
+  color: #fff;
 }
