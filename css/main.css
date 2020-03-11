@@ -827,12 +827,10 @@ header {
     text-align: center;
     text-decoration: none;
 }
-.info-container a,
 #pagin li a {
     color: #fff;
     background: #424242;
 }
-.dark .info-container a,
 .dark #pagin li a {
     color: #fff;
     background: #000;
@@ -1167,4 +1165,19 @@ li.liListItem {
     list-style-type: none;
     border-bottom: 2px solid #eee;
     display: inline-block;
+}
+.info-container a {
+    color: #000;
+}
+.info-container a:hover {
+    color: #3939dc;
+}
+.dark .info-container a {
+    color: #fff;    
+}
+.dark .info-container a {
+    color: #fff;    
+}
+.dark .info-container a:hover {
+    color: #6c6ce0;    
 }
