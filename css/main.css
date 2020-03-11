@@ -1160,3 +1160,11 @@ blockquote {
 .info-container {
     margin-top: 1.5em;
 }
+ul.ulListItem {
+    list-style-type: none;
+}
+li.liListItem {
+    list-style-type: none;
+    border-bottom: 2px solid #eee;
+    display: inline-block;
+}
