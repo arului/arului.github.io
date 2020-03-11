@@ -25,8 +25,8 @@
 <div class="grid-container">
     <header role="banner">
         <div class="header">
-            <div class="logo-banner">
-                <div class="grid-3 left" itemprop="name" itemscope itemtype="http://schema.org/Person">
+            <div class="logo-banner" itemprop="name" itemscope itemtype="http://schema.org/Person">
+                <div class="grid-3 left">
                     <div class="word">
                         <span>A</span>
                         <span>R</span>
@@ -36,24 +36,26 @@
                     </div>
                 </div>
                 <div class="grid-1 right">
-                    <nav role="navigation" class="select">
+                    <div class="menu-sec">
+			<nav role="navigation" class="select">
                         <ul>
-                            <span class="invisible" aria-hidden="true">Navigation Links</span>
                             <li><a aria-label="Home page" href="/">Home</a></li>
-                            <li><a aria-label="Github Repository page" rel="noopener noreferrer" target="_blank" href="https://github.com/arulkumar-lab">Repo</a></li>
+                            <li><a aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
+                                   href="https://github.com/arulkumar-lab">Repo</a></li>
                             <li><a aria-label="About you page" href="/about.html">About</a></li>
-                            <li><a aria-label="Services page" href="/services.html">Services</a></li>
+			    <li><a aria-label="Services page" href="/services.html">Services</a></li>
                             <li><a aria-label="Contact page" href="/contact.html">Contact</a></li>
-                        </ul>                        
+                        </ul>
                         <select class="select-menu" aria-label="Choose navigation links">
                             <option value="#">Menu</option>
                             <option value="/">Home</option>
                             <option value="https://github.com/arulkumar-lab">Repo</option>
                             <option value="/about.html">About</option>
-                            <option value="/services.html">Services</option>
+				<option value="/services.html">Services</option>
                             <option value="/contact.html">Contact</option>
                         </select>
                     </nav>
+			</div>
                     <div aria-label="Select page theme" class='toggle' id='switch'>
                         <div aria-label="dark mode" class='toggle-text-off'>Dark</div>
                         <div class='glow-comp'></div>
@@ -63,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <h1 class="invisible">Arul UI about page</h1>
+        <h1 class="invisible">Arul UI page</h1>
     </header>
     <main role="main">
         <div class="main-content margin-side" itemprop="name" itemscope itemtype="http://schema.org/Person">
