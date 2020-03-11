@@ -827,15 +827,16 @@ header {
     text-align: center;
     text-decoration: none;
 }
+.info-container a,
 #pagin li a {
     color: #fff;
     background: #424242;
 }
+.dark .info-container a,
 .dark #pagin li a {
     color: #fff;
     background: #000;
 }
-
 
 #pagin li a:hover,
 #pagin li.next:hover,
@@ -1155,4 +1156,7 @@ blockquote {
 
 .main-content #root div {
     font-size: 1rem;
+}
+.info-container {
+    margin-top: 1.5em;
 }
