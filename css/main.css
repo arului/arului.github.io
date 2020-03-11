@@ -942,24 +942,24 @@ blockquote {
   position: relative;
 }
 
-.dark .tabs nav li.tab-current {
+.dark .tabs nav li a.tab-current {
   border: 1px solid #47a3da;
   box-shadow: inset 0 2px #47a3da;
 }
 
-.tabs nav li.tab-current {
+.tabs nav li a.tab-current {
   border: 1px solid #2e3437;
   box-shadow: inset 0 2px #2e3437;
   border-bottom: none;
   z-index: 100;
 }
 
-.dark .tabs nav li.tab-current:before,
-.dark .tabs nav li.tab-current:after {
+.dark .tabs nav li a.tab-current:before,
+.dark .tabs nav li a.tab-current:after {
   background: #47a3da;
 }
-.tabs nav li.tab-current:before,
-.tabs nav li.tab-current:after {
+.tabs nav li a.tab-current:before,
+.tabs nav li a.tab-current:after {
   content: '';
   position: absolute;
   height: 1px;
@@ -969,7 +969,7 @@ blockquote {
   background: #2e3437;
 }
 
-.tabs nav li.tab-current:after {
+.tabs nav li a.tab-current:after {
   right: auto;
   left: 100%;
   width: 4000px;
@@ -991,10 +991,10 @@ blockquote {
   color: #768e9d;
 }
 
-.dark .tabs nav li.tab-current a {
+.dark .tabs nav li a.tab-current {
   color: #47a3da;
 }
-.tabs nav li.tab-current a {
+.tabs nav li a.tab-current {
   color: #2e3437;
 }
 
