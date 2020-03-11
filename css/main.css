@@ -534,7 +534,7 @@ header {
 }
 
 .margin-side {
-    margin: 0 3em;
+    margin: 0 12em;
 }
 
 .word span {
@@ -1124,6 +1124,9 @@ blockquote {
 }
 
 @media screen and (max-width: 32em) {
+  .margin-side {
+    margin: 0 5px;
+}
   .tabs nav ul,
   .tabs nav ul li a {
     width: 100%;
