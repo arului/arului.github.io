@@ -1160,6 +1160,8 @@ blockquote {
 }
 ul.ulListItem {
     list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 li.liListItem {
     list-style-type: none;
