@@ -943,7 +943,9 @@ blockquote {
 }
 
 .dark .tabs nav li a.tab-current {
-  border: 1px solid #47a3da;
+  border-left: 1px solid #47a3da;
+  border-right: 1px solid #47a3da;
+  border-top: 1px solid #47a3da;
   box-shadow: inset 0 2px #47a3da;
 }
 
@@ -1008,7 +1010,7 @@ blockquote {
   line-height: 1;
   speak: none;
   -webkit-font-smoothing: antialiased;
-  margin: -0.25em 0.4em 0 0;
+  margin: 0.25em 0.4em 0 0;
 }
 
 /* Content */
