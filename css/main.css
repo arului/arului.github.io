@@ -1167,16 +1167,13 @@ li.liListItem {
     display: inline-block;
 }
 .info-container a {
-    color: #000;
+    color: #482aea;
 }
 .info-container a:hover {
-  color: #fff;
+  color: #534b82;
 }
 .dark .info-container a {
   color: #3939dc;    
-}
-.dark .info-container a {
-    color: #6c6ce0;
 }
 .dark .info-container a:hover {    
   color: #fff;
