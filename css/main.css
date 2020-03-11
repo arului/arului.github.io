@@ -978,14 +978,16 @@ blockquote {
 }
 
 .tabs nav a {
-  color: #becbd2;
+  color: #141515;
   display: block;
   font-size: 1.45em;
   line-height: 2.5;
   padding: 0 1.25em;
   white-space: nowrap;
 }
-
+.dark .tabs nav a {
+  color: #649edb;
+}
 .tabs nav a:hover {
   color: #2e3437;
 }
