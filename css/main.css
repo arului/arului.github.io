@@ -1288,3 +1288,7 @@ input[type="checkbox"] + label svg path {
 .double-content p {
   font-size: 1.7em !important;
 }
+.client-app-bottom {
+    display: inline-block;
+    width: 100%;
+}
