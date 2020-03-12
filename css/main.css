@@ -991,7 +991,7 @@ blockquote {
 .tabs nav a {
   color: #141515;
   display: block;
-  font-size: 1.45em;
+  font-size: 1.45rem;
   line-height: 2.5;
   padding: 0 1.25em;
   white-space: nowrap;
@@ -1088,7 +1088,7 @@ blockquote {
     width: 15%;
     float: left;
     margin: 0 .5em 0 0;
-    font-size: 1.3em !important;
+    font-size: 1.3rem !important;
 }
 
 @media screen and (max-width: 52.375em) {
@@ -1206,13 +1206,13 @@ li.liListItem {
 h3.title {
     margin: 0;
     padding: 0;
-    font-size: 1.4em;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 h3.publish {
     padding: 0;
     margin: 0 0px 1.5em;
-    font-size: 1em;
+    font-size: 1.4rem;
     font-weight: 400;
     font-style: italic;
 }
@@ -1275,7 +1275,7 @@ input[type="checkbox"] + label svg path {
 
 .label-val {
     display: inline-block;
-    font-size: 1em !important;
+    font-size: 1.4rem !important;
 }
 .checkbox-info-container {
   display: inline-block;
@@ -1288,11 +1288,11 @@ input[type="checkbox"] + label svg path {
   border: 5px solid #649edb;
 }
 .double-content .double-qs {
-  font-size: 1.9em !important;
+  font-size: 1.9rem !important;
 }
 .single-content p,
 .double-content p {
-  font-size: 1.7em !important;
+  font-size: 1.7rem !important;
 }
 .client-app-bottom {
     display: inline-block;
@@ -1312,4 +1312,8 @@ input[type="checkbox"] + label svg path {
 
 .info-container, .info-container div, .info-container p {
     font-size: 1.6rem;
+}
+.margin-all-0 {
+  margin: 0;
+  padding: 0;
 }
