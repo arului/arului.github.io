@@ -484,7 +484,6 @@ header {
 .grid-container .main-content div,
 .grid-container .main-content p {
   font-size: 1.4rem;
-  text-align: justify;
 }
 .dark .logo-banner {
     background: #000;
