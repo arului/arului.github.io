@@ -1091,6 +1091,12 @@ blockquote {
 }
 
 @media screen and (max-width: 52.375em) {
+  .word span {
+    font-size: 4em;
+  }
+  nav[class="select"] ul > li {
+    font-size: .67em;
+  }
   .margin-side {
     margin: 0 1.3em;
   }
