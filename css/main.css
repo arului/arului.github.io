@@ -1238,11 +1238,12 @@ input[type="checkbox"]:focus + label {
 input[type="checkbox"] + label {
   display: block;
   border: 5px solid #333;
-  width: var(--d);
-  height: var(--d);
+  width: 2.5em;
+  height: 2.7em;
   border-radius: 14px;
   cursor: pointer;
   transition: all .2s ease;
+  margin: .7em;
 }
 input[type="checkbox"] + label:active {
   transform: scale(1.05);
