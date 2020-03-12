@@ -1123,6 +1123,9 @@ blockquote {
   .dash-mediabox:after {
     clear: both;
   }
+  .check-sec {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 32em) {
@@ -1236,7 +1239,7 @@ input[type="checkbox"]:focus + label {
 }
 
 input[type="checkbox"] + label {
-  display: block;
+  display: inline-block;
   border: 5px solid #333;
   width: 2.5em;
   height: 2.7em;
@@ -1267,7 +1270,7 @@ input[type="checkbox"] + label svg path {
     width: 20%;
     float: left;
     margin: 0em 3em 0 0;
-    font-size: 1.7em;
+    font-size: 1.3em;
 }
 .label-val {
     display: inline-block;
