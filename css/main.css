@@ -1092,6 +1092,9 @@ blockquote {
 }
 
 @media screen and (max-width: 52.375em) {
+  .margin-side {
+    margin: 0 1.3em;
+  }
   .tabs nav a span {
     display: none;
   }
