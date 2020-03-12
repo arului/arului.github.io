@@ -921,7 +921,7 @@ blockquote {
 
 .client-app-main div,
 .client-app-main p{
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 .tabs {
@@ -1308,4 +1308,8 @@ input[type="checkbox"] + label svg path {
   .logo-banner {
     min-height: 10em;
 }
+}
+
+.info-container, .info-container div, .info-container p {
+    font-size: 1.6rem;
 }
