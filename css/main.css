@@ -1078,7 +1078,13 @@ blockquote {
   line-height: 1.7;
 }
 
-/* Example media queries */
+.check-sec {
+    display: inline-block;
+    width: 15%;
+    float: left;
+    margin: 0em 1em 0 0;
+    font-size: 1.7em !important;
+}
 
 @media screen and (max-width: 52.375em) {
   .tabs nav a span {
@@ -1165,10 +1171,6 @@ blockquote {
   .dash-mediabox p, .mediabox p {
     margin: 0;
   }
-}
-
-.main-content #root div {
-    font-size: 1rem;
 }
 .info-container {
     margin-top: 1.5em;
@@ -1265,13 +1267,7 @@ input[type="checkbox"] + label svg path {
   stroke-dashoffset: 101;
   transition: all 350ms cubic-bezier(1, 0, 0.37, 0.91);
 }
-.check-sec {
-    display: inline-block;
-    width: 15%;
-    float: left;
-    margin: 0em 1em 0 0;
-    font-size: 1.7em !important;
-}
+
 .label-val {
     display: inline-block;
     font-size: 1em !important;
