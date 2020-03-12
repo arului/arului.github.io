@@ -481,8 +481,8 @@ header {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: left;    
 }
-.grid-container .main-content div,
-.grid-container .main-content p {
+.grid-container .main-content .line-content div,
+.grid-container .main-content .line-content p {
   font-size: 1.4rem;
   text-align: left;
   margin-top: .5em;
