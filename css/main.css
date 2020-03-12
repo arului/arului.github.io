@@ -765,7 +765,8 @@ header {
 }
 
 /* small screens */
-@media screen and (max-width: 44em) {
+/*@media screen and (max-width: 44em) {*/
+@media screen and (max-width: 32em) {
     nav[class="select"] ul {
         display: none;
     }
