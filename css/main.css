@@ -1082,8 +1082,8 @@ blockquote {
     display: inline-block;
     width: 15%;
     float: left;
-    margin: 0em 1em 0 0;
-    font-size: 1.7em !important;
+    margin: 0 .5em 0 0;
+    font-size: 1.3em !important;
 }
 
 @media screen and (max-width: 52.375em) {
@@ -1283,9 +1283,9 @@ input[type="checkbox"] + label svg path {
   border: 5px solid #649edb;
 }
 .double-content .double-qs {
-  font-size: 1.9em;
+  font-size: 1.9em !important;
 }
 .single-content p,
 .double-content p {
-  font-size: 1.7em;
+  font-size: 1.7em !important;
 }
