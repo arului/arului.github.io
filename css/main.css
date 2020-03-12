@@ -483,7 +483,7 @@ header {
 }
 .grid-container .main-content .line-content div,
 .grid-container .main-content .line-content p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: left;
   margin-top: .5em;
 }
@@ -1314,7 +1314,7 @@ input[type="checkbox"] + label svg path {
 }
 
 .info-container, .info-container div, .info-container p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 .margin-all-0 {
   margin: 0;
