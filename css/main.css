@@ -919,6 +919,11 @@ blockquote {
     color: yellow;
 }
 
+.client-app-main div,
+.client-app-main p{
+    font-size: 1.4em;
+}
+
 .tabs {
   position: relative;
   width: 100%;
@@ -1058,7 +1063,7 @@ blockquote {
 
 .dash-mediabox {
   float: left;
-  width: 33%;
+  width: 31%;
   padding: 0 .6em;
 }
 
