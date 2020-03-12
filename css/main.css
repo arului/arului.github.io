@@ -1291,3 +1291,14 @@ input[type="checkbox"] + label svg path {
     display: inline-block;
     width: 100%;
 }
+@media screen and (max-width: 52.375em) {
+  .tabs {
+    margin-bottom: .3em;
+  }
+  .tabs nav ul li {
+    border-bottom: 1px solid #becbd2;  
+  }
+  .logo-banner {
+    min-height: 10em;
+}
+}
