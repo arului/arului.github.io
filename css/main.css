@@ -491,7 +491,7 @@ header {
 }
 
 .logo-banner {
-    min-height: 10em;
+    min-height: 15.3em;
 }
 
 .logo-banner, div.footer {
@@ -921,7 +921,7 @@ blockquote {
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin: 1em 0 2em;
+  margin: 0 0 2em;
   font-weight: 300;
 }
 
