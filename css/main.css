@@ -1241,12 +1241,12 @@ input[type="checkbox"]:focus + label {
 input[type="checkbox"] + label {
   display: inline-block;
   border: 5px solid #333;
-  width: 2.5em;
-  height: 2.7em;
+  width: 1.5em;
+  height: 1.7em;
   border-radius: 14px;
   cursor: pointer;
   transition: all .2s ease;
-  margin: .7em;
+  margin: .5em;
 }
 input[type="checkbox"] + label:active {
   transform: scale(1.05);
@@ -1267,14 +1267,14 @@ input[type="checkbox"] + label svg path {
 }
 .check-sec {
     display: inline-block;
-    width: 20%;
+    width: 15%;
     float: left;
-    margin: 0em 3em 0 0;
-    font-size: 1.3em;
+    margin: 0em 1em 0 0;
+    font-size: 1.7em !important;
 }
 .label-val {
     display: inline-block;
-    font-size: 1.4em;
+    font-size: 1em !important;
 }
 .checkbox-info-container {
   display: inline-block;
