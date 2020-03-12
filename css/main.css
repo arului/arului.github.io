@@ -1280,3 +1280,16 @@ input[type="checkbox"] + label svg path {
   display: inline-block;
     width: 100%;
 }
+.dark input[type="checkbox"] + label svg path {
+    stroke: #5790e4;
+}
+.dark input[type="checkbox"] + label {
+  border: 5px solid #649edb;
+}
+.double-content .double-qs {
+  font-size: 1.9em;
+}
+.single-content p,
+.double-content p {
+  font-size: 1.7em;
+}
