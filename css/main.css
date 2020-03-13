@@ -1169,7 +1169,9 @@ blockquote {
     border-right: none;
   }
 
-  .dash-mediabox, .mediabox {
+  .dash-mediabox, 
+  .mediabox, 
+  .line-content p {
     text-align: center;
   }
 
