@@ -69,27 +69,42 @@
     </header>
     <main role="main">
         <div class="main-content margin-side">
-	  <div class="line-content">
+	  <div class="form-container">
+		<div class="line-content">
             <h2 class="title">Contact Me</h2>
             <p>if you have anything to say, you can either leave a comment in any of the article in this blog or contact me</p>
            <form action="mailto:arul.ui.dev@gmail.com" method="post" enctype="text/plain">
-                <div class="form-group">
-                            <label aria-labelledby="fname" for="fname">Name</label>
-                            <input name="fname" id="fname" type="text" maxlength="50" />
-                </div>
-                <div class="form-group">
-                            <label aria-labelledby="email" for="email">Email</label>
-                            <input name="email" id="email" type="email" maxlength="50" />
-                </div>
-                <div class="form-group">
-                            <label aria-labelledby="desc" for="desc">Description</label>
-                            <textarea name="desc" id="desc" maxlength="50"></textarea>
-                </div>
-                <div class="form-group">                
-                            <input name="submit" id="submit" type="submit" value="Submit" />
-                </div>
+                <div class="row">
+      <div class="col-25">
+        <label  aria-labelledby="fullname" for="fullname">Full Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fullname" name="fullname" placeholder="Full name.." maxlength="50">
+      </div>
+    </div>
+		   <div class="row">
+      <div class="col-25">
+        <label  aria-labelledby="email" for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Email.." maxlength="50">
+      </div>
+    </div>
+		   
+		    <div class="row">
+      <div class="col-25">
+        <label for="Description">Description</label>
+      </div>
+      <div class="col-75">
+        <textarea id="Description" name="desc" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input name="submit" id="submit"  class="btn btn-primary" type="submit" value="Submit" />
+    </div>    
         </form>
 	  </div>
+	    </div>
         </div>
     </main>
     <footer role="contentinfo">
