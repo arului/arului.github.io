@@ -1339,3 +1339,37 @@ input[type="checkbox"] + label svg path {
 #lab_social_icon_footer .social-icons {
     margin-top: 2em;
 }
+.btn {
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px
+}
+
+.btn:hover,.btn:active,.btn:focus {
+    outline: none;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+.btn.btn-primary {
+    border-width: 2px;
+    background: #c1c1c1;
+    border-color: #c1c1c1;
+    color: #000;
+    position: relative;
+    top: 0;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    -webkit-box-shadow: 0 4px 20px -5px rgba(92, 96, 103, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(73, 76, 80, 0.4);
+}
+
+.btn.btn-primary:hover {
+    top: -2px;
+    background: #4f545d;
+    border-color: #4f545d;
+    color: #fff;
+    -webkit-box-shadow: 0 5px 30px -5px rgba(66,133,244,.7)!important;
+    box-shadow: 0 5px 30px -5px rgba(66,76,83,.7)!important;
+}
