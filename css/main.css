@@ -1341,6 +1341,23 @@ input[type="checkbox"] + label svg path {
     box-shadow: 0 5px 30px -5px rgba(66,76,83,.7)!important;
 }
 
+
+.dark .btn.btn-primary {
+    background: yellow;
+    border-color: yellow;
+    color: #fff;
+    -webkit-box-shadow: 0 4px 20px -5px rgba(2, 6, 13, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(3, 6, 13, 0.4);
+}
+
+.dark .btn.btn-primary:hover {
+    background: orange;
+    border-color: orange;
+    color: #fff;
+    -webkit-box-shadow: 0 5px 30px -5px rgba(6,13,4,.7)!important;
+    box-shadow: 0 5px 30px -5px rgba(6,6,3,.7)!important;
+}
+
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;
@@ -1359,19 +1376,13 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
   cursor: pointer;
   float: right;
 }
 
 /* Style the container */
 .form-container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
+  border-radius: 5px;  
   padding: 20px;
 }
 
@@ -1417,4 +1428,8 @@ input[type=submit] {
   line-height: 2em;
   margin-right: 3em;
   font-size: 1.2em;    
+}
+
+.dark .contact-left h2.title {
+ border-bottom: 13px solid blue;
 }
