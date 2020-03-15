@@ -745,14 +745,14 @@ header {
         width: 100%;
         padding: .55em .45em;
         border: none;
-        background-color: #05506f;
+        background-color: #6d6868;
         color: #fff;
         font: 1.2em 'Exo', sans-serif;
     }
 
     .dark nav[class="select"] select {
-        background: #ecd216;
-        color: #000;
+        background: #77bad4;
+        color: #fff;
     }
 
     .word span {
