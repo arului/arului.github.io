@@ -1343,19 +1343,19 @@ input[type="checkbox"] + label svg path {
 
 
 .dark .btn.btn-primary {
-    background: yellow;
-    border-color: yellow;
+    background: #77bad4;
+    border-color: #066990;
     color: #fff;
-    -webkit-box-shadow: 0 4px 20px -5px rgba(2, 6, 13, 0.4);
-    box-shadow: 0 4px 20px -5px rgba(3, 6, 13, 0.4);
+    -webkit-box-shadow: 0 4px 20px -5px rgba(161, 217, 239, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(161, 217, 239, 0.4);
 }
 
 .dark .btn.btn-primary:hover {
-    background: orange;
-    border-color: orange;
+    background: #3fc6fb;
+    border-color: #0c8dbf;
     color: #fff;
-    -webkit-box-shadow: 0 5px 30px -5px rgba(6,13,4,.7)!important;
-    box-shadow: 0 5px 30px -5px rgba(6,6,3,.7)!important;
+    -webkit-box-shadow: 0 5px 30px -5px rgba(161, 217, 239,.7)!important;
+    box-shadow: 0 5px 30px -5px rgba(161, 217, 239,.7)!important;
 }
 
 /* Style inputs, select elements and textareas */
@@ -1431,5 +1431,5 @@ input[type=submit] {
 }
 
 .dark .contact-left h2.title {
- border-bottom: 13px solid blue;
+ border-bottom: 13px solid #77bad4;
 }
