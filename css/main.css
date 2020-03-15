@@ -1127,8 +1127,8 @@ blockquote {
   }
 
   .tabs nav ul li {
-    width: 20%;
-    width: calc(20% + 1px);
+    width: 19%;
+    width: calc(19% + 1px);
     margin: 0 0 0 -1px;
   }
 
