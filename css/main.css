@@ -1307,9 +1307,11 @@ input[type="checkbox"] + label svg path {
     margin-top: 2em;
 }
 .btn {
-    font-size: 16px;
-    border-radius: 30px;
-    padding: 10px 30px
+    font-size: 1.5rem;
+    border-radius: 2em;
+    padding: 10px 30px;
+    width: 8em;
+    line-height: 1.8em;
 }
 
 .btn:hover,.btn:active,.btn:focus {
