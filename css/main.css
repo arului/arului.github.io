@@ -1508,6 +1508,9 @@ a.modal-close {
     width: 80px;
     text-align: center;
 }
+img.responsive-img {
+    margin: 1.5em 0;
+}
 .search-box i {
   position: absolute;
 } 
