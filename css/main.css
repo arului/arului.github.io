@@ -1543,3 +1543,19 @@ img.responsive-img {
   border-right: 1px solid #a2a2a2;;
   border-bottom: 3px solid #000;
 }
+.profile-details span {
+  display: block;
+  color: #4f82d5;
+  font-size: 1.6rem;
+}
+.profile-details p {
+  display: block;  
+  font-size: 1.3rem;
+  line-height: 1.6em;
+}
+.profile-details a {
+  color: #000;
+}
+.profile-details a:hover {
+  color: #766c6c;
+}
