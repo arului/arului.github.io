@@ -1500,9 +1500,10 @@ input[type=submit] {
 .search-box i {
   position: absolute;
 } 
-
-.search-box { 
+.search-box label {
    width: 100%; 
+}
+.search-box {
    position: relative;
 } 
           
