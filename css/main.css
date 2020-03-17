@@ -1503,12 +1503,11 @@ input[type=submit] {
 
 .search-box { 
    width: 100%; 
-   margin-bottom: 10px; 
+   position: relative;
 } 
           
 .search-box i {
-  padding: 7px;
-  color: green;
+  padding: 10px;  
   min-width: 50px;
   text-align: center;
   right: 10px;
