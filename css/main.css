@@ -1559,3 +1559,6 @@ img.responsive-img {
 .profile-details a:hover {
   color: #766c6c;
 }
+.opacity-blur {
+  opacity: 0.3
+}
