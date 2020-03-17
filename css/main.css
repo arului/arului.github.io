@@ -1562,3 +1562,56 @@ img.responsive-img {
 .opacity-blur {
   opacity: 0.3
 }
+.symbol {
+    display: inline;
+    background: blue;
+    color: #fff;
+    padding: 5px 1em;
+}
+
+.profile .exchange {
+    margin-bottom: .5em;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #d3d3d3;
+}
+
+.profile .price-amount {
+    font-size: 3em;
+    line-height: 1.7em;
+    font-weight: 700;
+}
+
+.label-1 {
+    color: #a09999;
+    margin-bottom: .2em;
+}
+
+.Changes, .percent, .range, .mkt-cap {
+    margin-bottom: 1.2em;
+}
+
+.Changes i.fa-arrow-down,
+.percent i.fa-arrow-down {
+    color: red;
+}
+.Changes i.fa-arrow-up,
+.percent i.fa-arrow-up {
+    color: green;
+}
+.mkt-cap, .range {
+    color: #3f80c3;
+}
+.finance-container {
+    margin-bottom: 1em;
+    border-bottom: 2px solid #ddd;
+}
+.finance-container h2.title{
+  border-bottom: 11px solid #000;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.finance-container .profile {
+padding-top: 0;
+    padding-left: 0;
+}
