@@ -1508,10 +1508,12 @@ input[type=submit] {
 } 
           
 .search-box i {
-  padding: 10px;  
-  min-width: 50px;
-  text-align: center;
-  right: 10px;
+  padding: 8px;
+    min-width: 50px;
+    text-align: center;
+    right: 0px;
+    line-height: 1.6em;
+    font-size: 1.6rem;
 } 
           
 .search-box input {
