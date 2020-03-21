@@ -1689,3 +1689,18 @@ padding-top: 0;
 .panel:not(:last-child) {
   margin-bottom: 3px;
 }
+.suggest-results li {
+    list-style-type: none;
+    margin-bottom: 1em;
+    line-height: 2em;
+    border-bottom: 1px solid #ddd;
+}
+
+.suggest-results li:hover {
+    background: #d0d0d0;
+    cursor: pointer;
+}
+
+.suggest-results li p {
+    margin: 0;
+}
