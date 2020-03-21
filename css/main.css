@@ -227,7 +227,7 @@ nav[class="select"] ul {
 
 .dark nav[class="select"] ul > li {
     color: #fff;
-  border-bottom: 10px solid #77bad4;
+  border-bottom: 10px solid #4ea4fd;
 }
 
 nav[class="select"] ul > li {
@@ -338,7 +338,7 @@ header {
     bottom: 3px;
     right: 3px;
     border-radius: 23px;
-    background-color: #dcdfe0;
+    background-color: #4ea4fd;
     box-shadow: 0 0 16px #dadcdc;
     -webkit-transition: all .2s .1s, right .1s;
     transition: all .2s .1s, right .1s;
@@ -974,7 +974,7 @@ blockquote {
 }
 
 .dark .tabs nav li a.tab-current {
-  color: #47a3da;
+  color: #4ea4fd;
 }
 .tabs nav li a.tab-current {
   color: #060606;
@@ -1194,6 +1194,10 @@ h3.publish {
     font-size: 1.4rem;
     font-weight: 400;
     font-style: italic;
+}
+.quotes-container h3.publish {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
 }
 h3.title span,
 h3.publish span {
@@ -1609,14 +1613,22 @@ img.responsive-img {
 .percent i.fa-arrow-up {
     color: green;
 }
-.mkt-cap, .range {
-    color: #3f80c3;
+.dark .mkt-cap, 
+.dark .range, 
+.dark .vol-avg {
+    color: #4ea4fd;
 }
+.mkt-cap, 
+.range, 
+.vol-avg {
+    color: #101010;
+}
+
 .finance-container {
     margin-bottom: 1em;
 }
 .dark .finance-container h2.title{
-  border-bottom: 11px solid #5ba5e4;
+  border-bottom: 11px solid #4ea4fd;
 }
 
 .finance-container h2.title{
