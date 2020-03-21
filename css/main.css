@@ -1468,6 +1468,9 @@ input[type=submit] {
   .gen-col-11 {width: 91.66%;}
   .gen-col-12 {width: 100%;}
 }
+.dark .modal {
+  background-color: #000;
+}
 
 .modal {
     display: none;
@@ -1564,11 +1567,14 @@ img.responsive-img {
 }
 .symbol {
     display: inline;
-    background: blue;
+    background: #969696;
     color: #fff;
     padding: 5px 1em;
+    line-height: 1.7em;
 }
-
+.dark .symbol {
+  background: #5ba5e4;
+}
 .profile .exchange {
     margin-bottom: .5em;
     font-style: italic;
@@ -1587,15 +1593,19 @@ img.responsive-img {
     margin-bottom: .2em;
 }
 
-.Changes, .percent, .range, .mkt-cap {
+.changes, .percent, .range, .mkt-cap {
     margin-bottom: 1.2em;
 }
 
-.Changes i.fa-arrow-down,
+.changes.red,
+.percent.red,
+.changes i.fa-arrow-down,
 .percent i.fa-arrow-down {
     color: red;
 }
-.Changes i.fa-arrow-up,
+.changes.green,
+.percent.green,
+.changes i.fa-arrow-up,
 .percent i.fa-arrow-up {
     color: green;
 }
@@ -1604,10 +1614,13 @@ img.responsive-img {
 }
 .finance-container {
     margin-bottom: 1em;
-    border-bottom: 2px solid #ddd;
 }
+.dark .finance-container h2.title{
+  border-bottom: 11px solid #5ba5e4;
+}
+
 .finance-container h2.title{
-  border-bottom: 11px solid #000;
+  border-bottom: 11px solid #d6d6d6;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -1703,4 +1716,15 @@ padding-top: 0;
 
 .suggest-results li p {
     margin: 0;
+}
+.edit .finance-container, 
+.edit .quotes-container {
+    display: none
+}
+
+.edit .suggest-results {
+    opacity: 1
+}
+.edit.opacity-blur{
+    opacity: 1
 }
