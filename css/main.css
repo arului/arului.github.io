@@ -227,7 +227,7 @@ nav[class="select"] ul {
 
 .dark nav[class="select"] ul > li {
     color: #fff;
-  border-bottom: 10px solid #4ea4fd;
+  border-bottom: 8px solid #4ea4fd;
 }
 
 nav[class="select"] ul > li {
@@ -250,7 +250,7 @@ nav[class="select"] ul > li:hover {
 }
 
 .dark nav[class="select"] ul > li:hover {
-    background-color: #e8cf18;
+    background-color: #bbd1e6;
     color: #0e0e0e;
 }
 
@@ -967,17 +967,19 @@ blockquote {
   color: #649edb;
 }
 .tabs nav a:hover {
-  color: #2e3437;
+  color: #299ed8;
 }
 .dark .tabs nav a:hover {
-  color: #768e9d;
+  color: #fff;
 }
 
 .dark .tabs nav li a.tab-current {
-  color: #4ea4fd;
+  color: #000;
+  background:#d0dfe2;
 }
 .tabs nav li a.tab-current {
   color: #060606;
+  background: #8a8a8a;
 }
 
 .tabs nav a:before {
