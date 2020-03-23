@@ -136,5 +136,18 @@ $(document).ready(function() {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-155763128-1');  
+  
+  $(".quotes-chart ul").on("click", ".init", function() {
+    $(this).closest("ul").children('li:not(.init)').toggle();
+});
+
+var allOptions = $(".quotes-chart ul").children('li:not(.init)');
+$(".quotes-chart ul").on("click", "li:not(.init)", function() {
+    allOptions.removeClass('selected');
+    $(this).addClass('selected');
+    $(".quotes-chart ul").children('.init').html($(this).html());
+    allOptions.toggle();
+});
+  
 });
 
