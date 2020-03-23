@@ -1742,3 +1742,14 @@ padding-top: 0;
 .edit.opacity-blur{
     opacity: 1
 }
+.quotes-chart ul { 
+    height: 50px;
+    width: 100%;
+    border: 2px #000 solid;
+}
+
+.quotes-chart ul li { padding: 15px 10px; z-index: 2; }
+.quotes-chart ul li:not(.init) { float: left; width: 100%; display: none; background: #ddd; }
+.quotes-chart ul li:not(.init):hover, 
+.quotes-chart ul li.selected:not(.init) { background: #09f; }
+.quotes-chart li.init { cursor: pointer; }
