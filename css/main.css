@@ -1751,5 +1751,5 @@ padding-top: 0;
 .quotes-chart ul li { padding: 15px 10px; z-index: 2; }
 .quotes-chart ul li:not(.init) { float: left; width: 100%; display: none; background: #ddd; }
 .quotes-chart ul li:not(.init):hover, 
-.quotes-chart ul li.selected:not(.init) { background: #09f; }
+.quotes-chart ul li.selected:not(.init) { background: #09f;display:block }
 .quotes-chart li.init { cursor: pointer; }
