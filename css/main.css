@@ -1770,16 +1770,11 @@ padding-top: 0;
 ul.finance-report-select {
     list-style-type: none;
 }
-.quotes-key-data div {
-    display: block;
-}
-.quotes-key-data p {
-    margin-top: 0
-}
-
-.quotes-key-data p span.left{
-    float: left
-}
-.quotes-key-data p span.right{
-    float: right;
+.quotes-key-data div > div {
+    line-height: 1.4em;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #dad2d2;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
