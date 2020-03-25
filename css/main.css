@@ -1753,3 +1753,33 @@ padding-top: 0;
 .quotes-chart ul li:not(.init):hover, 
 .quotes-chart ul li.selected:not(.init) { background: #09f;display:block }
 .quotes-chart li.init { cursor: pointer; }
+
+.padding-left-0 {
+    padding-left: 0;
+}
+.padding-all-0 {
+    padding: 0;
+}
+.padding-horizantal-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.margin-all-0 {
+    margin: 0
+}
+ul.finance-report-select {
+    list-style-type: none;
+}
+.quotes-key-data div {
+    display: block;
+}
+.quotes-key-data p {
+    margin-top: 0
+}
+
+.quotes-key-data p span.left{
+    float: left
+}
+.quotes-key-data p span.right{
+    float: right;
+}
