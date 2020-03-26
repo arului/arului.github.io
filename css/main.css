@@ -1634,7 +1634,6 @@ img.responsive-img {
 }
 
 .finance-container h2.title{
-  border-bottom: 11px solid #d6d6d6;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -1743,13 +1742,13 @@ padding-top: 0;
     opacity: 1
 }
 .quotes-chart ul { 
-    height: 50px;
+    height: 40px;
     width: 100%;
-    border: 2px #000 solid;
+    border: 1px #000 solid;
 }
 
-.quotes-chart ul li { padding: 15px 10px; z-index: 2; }
-.quotes-chart ul li:not(.init) { float: left; width: 100%; display: none; background: #ddd; }
+.quotes-chart ul li { padding: 5px; z-index: 2; }
+.quotes-chart ul li:not(.init) { float: left; width: 98.5%; display: none; background: #ddd; }
 .quotes-chart ul li:not(.init):hover, 
 .quotes-chart ul li.selected:not(.init) { background: #09f;display:block }
 .quotes-chart li.init { cursor: pointer; }
@@ -1785,4 +1784,12 @@ ul.finance-report-select {
     margin-bottom: 0;
     background: #05b6de;
     border-bottom: 1px solid #eee;
+}
+button.btn-lg.load-btn {
+    height: 2em;
+    width: 6em;
+    margin-left: 0.6em;
+}
+.chart-box{
+  background: #343f57;
 }
