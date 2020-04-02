@@ -1794,16 +1794,20 @@ button.btn-lg.load-btn {
   background: #343f57;
 }
 
+.profile-charts {
+  max-width: 760px;
+  width: 760px;
+}
 .table-scroll {
   position: relative;
-  width:40%;
+  width:100%;
   z-index: 1;
   margin: 0;
   overflow: auto;
 }
 .table-scroll table {
-  width: 70%;
-  min-width: 380px;
+  width: 100%;
+  min-width: 670px;
   margin: 0;
   display: inline-block;
   border-collapse: separate;
