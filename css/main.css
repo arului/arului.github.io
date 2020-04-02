@@ -1798,13 +1798,13 @@ button.btn-lg.load-btn {
   position: relative;
   width:70%;
   z-index: 1;
-  margin: auto;
+  margin: 0;
   overflow: auto;
 }
 .table-scroll table {
   width: 70%;
   min-width: 380px;
-  margin: auto;
+  margin: 0;
   display: inline-block;
   border-collapse: separate;
   border-spacing: 0;
