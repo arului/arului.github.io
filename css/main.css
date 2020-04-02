@@ -1796,15 +1796,16 @@ button.btn-lg.load-btn {
 
 .table-scroll {
   position: relative;
-  width:100%;
+  width:70%;
   z-index: 1;
   margin: auto;
   overflow: auto;
 }
 .table-scroll table {
-  width: 100%;
-  min-width: 1280px;
+  width: 70%;
+  min-width: 380px;
   margin: auto;
+  display: inline-block;
   border-collapse: separate;
   border-spacing: 0;
   font-size: 10px;
