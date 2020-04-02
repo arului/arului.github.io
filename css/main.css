@@ -1801,6 +1801,7 @@ button.btn-lg.load-btn {
 .table-scroll {
   position: relative;
   width:100%;
+  display: inline-block;
   z-index: 1;
   margin: 0;
   overflow: auto;
@@ -1883,4 +1884,11 @@ tfoot th:first-child {
 
 .chart-view {
     float: right;
+    clear: both;
+    z-index: 1;
+    position: relative;
+}
+.mixed-chart {
+  display: inline-block;
+  width: 100%;
 }
