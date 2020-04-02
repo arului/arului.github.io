@@ -1854,3 +1854,13 @@ thead th:first-child,
 tfoot th:first-child {
   z-index: 5;
 }
+
+.profile-charts .graph-report,
+.profile-charts .table-report {
+  display: none;
+}
+
+.profile-charts .graph-report.display-active,
+.profile-charts .table-report.display-active {
+  display: block;
+}
