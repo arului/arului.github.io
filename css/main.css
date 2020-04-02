@@ -1868,3 +1868,19 @@ tfoot th:first-child {
 .profile-charts .table-report.display-active {
   display: block;
 }
+.chart-view a {
+    color:  #d3d3d3;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.7em;
+}
+.chart-view a.display-active {
+    color: #fff;
+    background: #000;
+    border-radius: 6px;        
+}
+
+.chart-view {
+    float: right;
+}
