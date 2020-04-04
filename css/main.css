@@ -1885,14 +1885,14 @@ tfoot th:first-child {
 .finance-report-statement {
     /* Size & position */
     position: relative;
-    width: 200px;
+    /* width: 200px; */
     margin: 0 auto;
-    padding: 12px 15px;
+    padding: 10px 10px;
 
     /* Styles */
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.2);
     cursor: pointer;
     outline: none;
     transition: all 0.3s ease-out;
@@ -1906,9 +1906,9 @@ tfoot th:first-child {
     top: 50%;
     right: 15px;
     margin-top: -3px;
-    border-width: 6px 6px 0 6px;
+    border-width: 10px 10px 0 10px;
     border-style: solid;
-    border-color: #4cbeff transparent;
+    border-color: #3da2dc transparent;
 }
 
 .finance-report-statement .dropdown {
@@ -1919,7 +1919,7 @@ tfoot th:first-child {
     right: 0;
 
     /* Styles */
-    background: #fff;
+    background: #5bb7df;
     border-radius: 0 0 5px 5px;
     border: 1px solid rgba(0,0,0,0.2);
     border-top: none;
@@ -1930,6 +1930,7 @@ tfoot th:first-child {
     /* Hiding */
     max-height: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 .finance-report-statement .dropdown li {
@@ -1958,7 +1959,7 @@ tfoot th:first-child {
 /* Hover state */
 
 .finance-report-statement .dropdown li:hover  {
-    color: #57a9d9;
+    color: #3d3f40;
 }
 
 .finance-report-statement.active {
@@ -1970,7 +1971,7 @@ tfoot th:first-child {
 }
 
 .finance-report-statement.active:after {
-    border-color: #82d1ff transparent;
+    border-color: #f9f9f9 transparent;
 }
 
 .finance-report-statement.active .dropdown {
