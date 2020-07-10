@@ -147,7 +147,25 @@ $(".quotes-chart ul").on("click", "li:not(.init)", function() {
     $(this).addClass('selected');
     $(".quotes-chart ul").children('.init').html($(this).html());
     allOptions.toggle();
+});  
 });
-  
-});
+function myFunction() {
+              var x = document.getElementById("myGrid");
+              if (x.className === "erich-row") {
+                x.className = "erich-row-padding";
+              } else { 
+                x.className = x.className.replace("erich-row-padding", "erich-row");
+              }
+            }
+            
+            // Open and close sidebar
+            function erich_open() {
+              document.getElementById("mySidebar").style.width = "100%";
+              document.getElementById("mySidebar").style.display = "block";
+            }
+            
+            function erich_close() {
+              document.getElementById("mySidebar").style.display = "none";
+            }
+
 
