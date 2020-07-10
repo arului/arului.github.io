@@ -1,123 +1,139 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Arul UI - About me sharing information</title>
-    <meta name="description" content="Arul UI sharing personal details about me page">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#317EFB"/>
-    <link rel="manifest" href="site.webmanifest">
-    <link type="text/plain" rel="author" href="humans.txt">
-    <link rel="apple-touch-icon" href="icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <meta name="theme-color" content="#fafafa">
-</head>
-
-<body id="body-content" class="body-class">
-<!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</p>
-<![endif]-->
-<div class="grid-container">
-    <header role="banner">
-        <div class="header">
-            <div class="logo-banner" itemprop="name" itemscope itemtype="http://schema.org/Person">
-                <div class="grid-3 left">
-                    <div class="word">
-                        <span>A</span>
-                        <span>R</span>
-                        <span>U</span>
-                        <span>L</span>
-                        <span>UI</span>
+    <!doctype html>
+    <html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Arul UI - About me sharing information</title>
+        <meta name="description" content="Arul UI sharing personal details about me page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#317EFB"/>
+        <link rel="manifest" href="site.webmanifest">
+        <link type="text/plain" rel="author" href="humans.txt">
+        <link rel="apple-touch-icon" href="icon.png">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+         <link rel="stylesheet" href="css/extended-styles.css">
+    
+        <meta name="theme-color" content="#fafafa">
+    </head>
+    
+    <body id="body-content" class="body-class">
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+        your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <div class="grid-container">
+        <header role="banner">
+                                <div class="header">
+                                <div class="erich-top">
+                          <div class="erich-bar erich-white erich-padding erich-card" style="letter-spacing:4px;">
+                            <a href="#home" class="erich-bar-head-text erich-bar-item erich-button">Arul UI Internet Things</a>
+                            <!-- Right-sided navbar links. Hide them on small screens -->
+                            <div class="erich-right erich-hide-small">
+                                                    <div aria-label="Select page theme" class='toggle' id='switch'>
+                                                <div aria-label="dark mode" class='toggle-text-off'>Dark</div>
+                                                <div class='glow-comp'></div>
+                                                <div class='toggle-button'></div>
+                                                <div aria-label="plain white mode" class='toggle-text-on'>Light</div>
+                                            </div>
+                                            <div class="tabbed-menu">
+                              <a class="regular-link erich-bar-item erich-button" aria-label="Home page" href="/">Home</a>
+                              <a class="regular-link erich-bar-item erich-button" aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
+                                                           href="https://github.com/arulkumar-lab">Repo</a>
+                              <a class="regular-link erich-bar-item erich-button" aria-label="About you page" href="/about.html">About</a>
+                              <a class="regular-link erich-bar-item erich-button" aria-label="Services page" href="/services.html">Services</a>
+                              <a class="regular-link erich-bar-item erich-button" aria-label="Contact page" href="/contact.html">Contact</a>
+                              </div>
+                               <div class="menu-sec">
+                                     <div class="erich-opacity">
+                                        <span class="erich-button erich-xxlarge erich-white erich-right" onClick="erich_open()"><i class="fa fa-bars"></i></span>
+                                    </div>
+                                    </div>
+                            </div>
+                          </div>
+                        </div>
+                        <nav class="erich-sidebar erich-black erich-animate-top erich-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+                          <a href="javascript:void(0)" onClick="erich_close()" class="erich-button erich-black erich-xxlarge erich-padding erich-display-topright" style="padding:6px 24px">
+                            <i class="fa fa-remove"></i>
+                          </a>
+                          <div class="erich-bar-block erich-center">
+                            <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Home page" href="/">Home</a></li>
+                            <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
+                                                           href="https://github.com/arulkumar-lab">Repo</a>
+                            <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="About you page" href="/about.html">About</a>
+                            <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Services page" href="/services.html">Services</a>
+                            <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Contact page" href="/contact.html">Contact</a>                                
+                          </div>
+                        </nav>
+                                    <div class="logo-banner" itemprop="name" itemscope itemtype="http://schema.org/Person">
+                                        <div class="grid-3 left">
+                                            <div class="word">
+                                                <span>A</span>
+                                                <span>R</span>
+                                                <span>U</span>
+                                                <span>L</span>
+                                                <span>UI</span>
+                                            </div>
+                                        </div>
+                                        <div class="grid-1 right">
+                                           <!-- TODO -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="invisible">Arul UI page</h1>
+                            </header>
+        <main role="main">
+            <div class="main-content margin-side" itemprop="name" itemscope itemtype="http://schema.org/Person">
+          <div class="line-content">
+                <h2 class="title">About me</h2>
+                <p itemprop="description">I am actively trying to get better with React/Vue/Angular and this whole 'front end' craze. I'm not a super creative person when it comes to UI looks, but I enjoy creating something usable and nice looking from front to back.</p>
+                <hr/>           
+                <p itemprop="description">I am most comfortable with full stack applications, primarily used with backend web frameworks such as Java and J2EE based frameworks. I worked heavily in the backend, and infrastructure portion of many of my jobs and projects. That means I also mess around with Jenkins, CI/CD, google cloud and all that fun jazz.</p>
+                <br/>
+                <p>I worked in a full-time position as software engineer on a large scale web application using JavaScript and Java to help thousands of customers to introduce a feedback culture in their companies. Those years gave me a lot of practical experiences in the field and I tried to convey a part of the information on my blog. But I am always keen to learn something new, so I try to push myself every day.</p>
+                <p>I try my best to have a positive impact on the world. 99% of my code is open source for everyone on GitHub. Every time I build a product/service for myself, I immediately think about how to open source it for others. Even though I open source my work and offer lots of learning material for free, not everyone is able to make use of it.</p>
+                <p itemprop="description">Outside of the office I like to keep active, taking part in a multitude of activities and have a strong passion for travelling.</p>
+                <div>
+                <h3 class="title">By&nbsp;<span>Arul</span></p>            
+                <h3 class="publish">UI Developer<br/>Glasgow</p>            
+                </div>
+          </div>
+            </div>
+            
+        </main>
+        <footer role="contentinfo">
+            <div id="lab_social_icon_footer" class="footer">            
+                <div class="container">
+                    <div class="margin-side">
+                        <a href="#body-content" class="fa-small"><i id="scroll-top"
+                                                                    class="fa fa-arrow-up fa-lg social"></i>Top</a>
+                        <!--<h2>Footer display</h2>-->
+                    </div>
+                    <div class="margin-side social-icons">                    
+                        <a aria-label="Twitter" rel="noopener noreferrer" target="_blank"
+                                               href="https://twitter.com/@imarulkumar1"><i id="social-tw"
+                                                                                           class="fa fa-twitter-square fa-3x social"></i></a>
+                                            <a aria-label="Email" rel="noopener noreferrer" target="_blank" href="mailto:arul.ui.dev@gmail.com"><i
+                                                    id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                                                    <a aria-label="Pexels Photography" rel="noopener noreferrer" target="_blank" href="https://www.pexels.com/@arul-ui-2759067"><i id="social-fb"
+                                                                                                            class="fa fa-picture-o fa-3x social"></i></a>                    
+                                            <a aria-label="You Tube channel" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/imarulkumar"><i id="social-gp"
+                                                                                                                 class="fa fa-youtube fa-3x social"></i></a>
+                        <p>&#169;Developed by Arul 2020</p>
                     </div>
                 </div>
-                <div class="grid-1 right">
-                    <div class="menu-sec">
-			<nav role="navigation" class="select">
-                        <ul>
-                            <li><a aria-label="Home page" href="/">Home</a></li>
-                            <li><a aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
-                                   href="https://github.com/arulkumar-lab">Repo</a></li>
-                            <li><a aria-label="About you page" href="/about.html">About</a></li>
-			    <li><a aria-label="Services page" href="/services.html">Services</a></li>
-                            <li><a aria-label="Contact page" href="/contact.html">Contact</a></li>
-                        </ul>
-                        <select class="select-menu" aria-label="Choose navigation links">
-                            <option value="#">Menu</option>
-                            <option value="/">Home</option>
-                            <option value="https://github.com/arulkumar-lab">Repo</option>
-                            <option value="/about.html">About</option>
-				<option value="/services.html">Services</option>
-                            <option value="/contact.html">Contact</option>
-                        </select>
-                    </nav>
-			</div>
-                    <div aria-label="Select page theme" class='toggle' id='switch'>
-                        <div aria-label="dark mode" class='toggle-text-off'>Dark</div>
-                        <div class='glow-comp'></div>
-                        <div class='toggle-button'></div>
-                        <div aria-label="plain white mode" class='toggle-text-on'>Light</div>
-                    </div>
-                </div>
+    
             </div>
-        </div>
-        <h1 class="invisible">Arul UI page</h1>
-    </header>
-    <main role="main">
-        <div class="main-content margin-side" itemprop="name" itemscope itemtype="http://schema.org/Person">
-	  <div class="line-content">
-            <h2 class="title">About me</h2>
-            <p itemprop="description">I am actively trying to get better with React/Vue/Angular and this whole 'front end' craze. I'm not a super creative person when it comes to UI looks, but I enjoy creating something usable and nice looking from front to back.</p>
-            <hr/>           
-            <p itemprop="description">I am most comfortable with full stack applications, primarily used with backend web frameworks such as Java and J2EE based frameworks. I worked heavily in the backend, and infrastructure portion of many of my jobs and projects. That means I also mess around with Jenkins, CI/CD, google cloud and all that fun jazz.</p>
-            <br/>
-            <p>I worked in a full-time position as software engineer on a large scale web application using JavaScript and Java to help thousands of customers to introduce a feedback culture in their companies. Those years gave me a lot of practical experiences in the field and I tried to convey a part of the information on my blog. But I am always keen to learn something new, so I try to push myself every day.</p>
-            <p>I try my best to have a positive impact on the world. 99% of my code is open source for everyone on GitHub. Every time I build a product/service for myself, I immediately think about how to open source it for others. Even though I open source my work and offer lots of learning material for free, not everyone is able to make use of it.</p>
-            <p itemprop="description">Outside of the office I like to keep active, taking part in a multitude of activities and have a strong passion for travelling.</p>
-            <div>
-		    <h3 class="title">By&nbsp;<span>Arul</span></p>            
-		    <h3 class="publish">UI Developer<br/>Glasgow</p>            
-            </div>
-	  </div>
-        </div>
-        
-    </main>
-    <footer role="contentinfo">
-        <div id="lab_social_icon_footer" class="footer">            
-            <div class="container">
-                <div class="margin-side">
-                    <a href="#body-content" class="fa-small"><i id="scroll-top"
-                                                                class="fa fa-arrow-up fa-lg social"></i>Top</a>
-                    <!--<h2>Footer display</h2>-->
-                </div>
-                <div class="margin-side social-icons">                    
-                    <!--
-                    <a aria-label="Facebook" rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/bootsnipp"><i id="social-fb"
-                                                                                    class="fa fa-facebook-square fa-3x social"></i></a>                    
-                    <a aria-label="Google Plus" rel="noopener noreferrer" target="_blank" href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
-                                                                                         class="fa fa-google-plus-square fa-3x social"></i></a>
--->
-<a aria-label="Twitter" rel="noopener noreferrer" target="_blank" href="https://twitter.com/@imarulkumar1"><i id="social-tw"
-                                                                               class="fa fa-twitter-square fa-3x social"></i></a>
-                    <a aria-label="Email" rel="noopener noreferrer" target="_blank" href="mailto:arul.ui.dev@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-                    <p>&#169;Developed by Arul 2020</p>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-</div>
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>   
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="./workbox-sw.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155763128-1"></script>
-</body>
-</html>
+        </footer>
+    </div>
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>   
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="./workbox-sw.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155763128-1"></script>
+    </body>
+    </html>
