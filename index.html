@@ -1,271 +1,321 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Arul UI blogs - web development technical skills</title>
-    <meta name="description"
-          content="Arul UI blogs - web development technical skills i.e. react angular, jquery, vue, javascript library and frameworks">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#317EFB"/>
-    <link rel="manifest" href="site.webmanifest">
-    <link type="text/plain" rel="author" href="humans.txt">
-    <link rel="apple-touch-icon" href="icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <meta name="theme-color" content="#fafafa">
-</head>
-
-<body id="body-content" class="body-class">
-<!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</p>
-<![endif]-->
-<div class="grid-container">
-    <header role="banner">
-        <div class="header">
-            <div class="logo-banner" itemprop="name" itemscope itemtype="http://schema.org/Person">
-                <div class="grid-3 left">
-                    <div class="word">
-                        <span>A</span>
-                        <span>R</span>
-                        <span>U</span>
-                        <span>L</span>
-                        <span>UI</span>
+                <!doctype html>
+                <html class="no-js" lang="en">
+                <head>
+                    <meta charset="utf-8">
+                    <title>Arul UI blogs - web development technical skills</title>
+                    <meta name="description"
+                          content="Arul UI blogs - web development technical skills i.e. react angular, jquery, vue, javascript library and frameworks">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="theme-color" content="#317EFB"/>
+                    <link rel="manifest" href="site.webmanifest">
+                    <link type="text/plain" rel="author" href="humans.txt">
+                    <link rel="apple-touch-icon" href="icon.png">
+                    <link rel="shortcut icon" href="favicon.ico">
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                    <link rel="stylesheet" href="css/normalize.css">
+                    <link rel="stylesheet" href="css/main.css">
+                        <link rel="stylesheet" href="css/extended-styles.css">
+                
+                    <meta name="theme-color" content="#fafafa">
+                </head>
+                
+                <body id="body-content" class="body-class">
+                <!--[if IE]>
+                <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+                    your browser</a> to improve your experience and security.</p>
+                <![endif]-->
+                <div class="grid-container">
+                    <header role="banner">
+                        <div class="header">
+                        <div class="erich-top">
+                  <div class="erich-bar erich-white erich-padding erich-card" style="letter-spacing:4px;">
+                    <a href="#home" class="erich-bar-head-text erich-bar-item erich-button">Arul UI Internet Things</a>
+                    <!-- Right-sided navbar links. Hide them on small screens -->
+                    <div class="erich-right erich-hide-small">
+                                            <div aria-label="Select page theme" class='toggle' id='switch'>
+                                        <div aria-label="dark mode" class='toggle-text-off'>Dark</div>
+                                        <div class='glow-comp'></div>
+                                        <div class='toggle-button'></div>
+                                        <div aria-label="plain white mode" class='toggle-text-on'>Light</div>
+                                    </div>
+                                    <div class="tabbed-menu">
+                      <a class="regular-link erich-bar-item erich-button" aria-label="Home page" href="/">Home</a>
+                      <a class="regular-link erich-bar-item erich-button" aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
+                                                   href="https://github.com/arulkumar-lab">Repo</a>
+                      <a class="regular-link erich-bar-item erich-button" aria-label="About you page" href="/about.html">About</a>
+                      <a class="regular-link erich-bar-item erich-button" aria-label="Services page" href="/services.html">Services</a>
+                      <a class="regular-link erich-bar-item erich-button" aria-label="Contact page" href="/contact.html">Contact</a>
+                      </div>
+                       <div class="menu-sec">
+                             <div class="erich-opacity">
+                                <span class="erich-button erich-xxlarge erich-white erich-right" onClick="erich_open()"><i class="fa fa-bars"></i></span>
+                            </div>
+                            </div>
                     </div>
+                  </div>
                 </div>
-                <div class="grid-1 right">
-                    <div class="menu-sec">
-			<nav role="navigation" class="select">
-                        <ul>
-                            <li><a aria-label="Home page" href="/">Home</a></li>
-                            <li><a aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
-                                   href="https://github.com/arulkumar-lab">Repo</a></li>
-                            <li><a aria-label="About you page" href="/about.html">About</a></li>
-			    <li><a aria-label="Services page" href="/services.html">Services</a></li>
-                            <li><a aria-label="Contact page" href="/contact.html">Contact</a></li>
-                        </ul>
-                        <select class="select-menu" aria-label="Choose navigation links">
-                            <option value="#">Menu</option>
-                            <option value="/">Home</option>
-                            <option value="https://github.com/arulkumar-lab">Repo</option>
-                            <option value="/about.html">About</option>
-				<option value="/services.html">Services</option>
-                            <option value="/contact.html">Contact</option>
-                        </select>
-                    </nav>
-			</div>
-                    <div aria-label="Select page theme" class='toggle' id='switch'>
-                        <div aria-label="dark mode" class='toggle-text-off'>Dark</div>
-                        <div class='glow-comp'></div>
-                        <div class='toggle-button'></div>
-                        <div aria-label="plain white mode" class='toggle-text-on'>Light</div>
-                    </div>
+                <nav class="erich-sidebar erich-black erich-animate-top erich-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+                  <a href="javascript:void(0)" onClick="erich_close()" class="erich-button erich-black erich-xxlarge erich-padding erich-display-topright" style="padding:6px 24px">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                  <div class="erich-bar-block erich-center">
+                    <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Home page" href="/">Home</a></li>
+                    <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Github Repository page" rel="noopener noreferrer" target="_blank"
+                                                   href="https://github.com/arulkumar-lab">Repo</a>
+                    <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="About you page" href="/about.html">About</a>
+                    <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Services page" href="/services.html">Services</a>
+                    <a class="erich-bar-item erich-button erich-text-grey erich-hover-black" aria-label="Contact page" href="/contact.html">Contact</a>                                
+                  </div>
+                </nav>
+                            <div class="logo-banner" itemprop="name" itemscope itemtype="http://schema.org/Person">
+                                <div class="grid-3 left">
+                                    <div class="word">
+                                        <span>A</span>
+                                        <span>R</span>
+                                        <span>U</span>
+                                        <span>L</span>
+                                        <span>UI</span>
+                                    </div>
+                                </div>
+                                <div class="grid-1 right">
+                                   <!-- TODO -->
+                                </div>
+                            </div>
+                        </div>
+                        <h1 class="invisible">Arul UI page</h1>
+                    </header>
+                    <main role="main">
+                        <div class="main-content margin-side">
+                            <div class="line-content" style="">
+                                <h2 class="title">Apache CouchDB Express Pug Module</h2>
+                                <div class="client-app-container">
+                                            <div class="profile-width padding-all-0">
+                                            <img src="images/profile.JPG" class="user">                        </div>
+                              <div class="gen-col-9 padding-all-0">
+                                        <h3 class="title" itemprop="name" itemscope=""
+                                itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
+                                        <h3 class="publish">Updated: 21th Feb 2020</h3>
+                                    </div>
+                                </div>
+                                <p>Apache CouchDB store your data on JSON natively with document store. CouchDB API access method
+                                    supports RESTful HTTP/JSON service to access the application.</p>
+                                <p>Fauxton is the browser UI application to access the couchDB database, replication, cluster,
+                                    replication and results. CouchDB uses MapReduce methods for API service and also access rights for
+                                    users can be defined per database.</p>
+                                <p>Queries can use the built-in _all_docs index or custom indexes, specified using the _index
+                                    endpoint.</p>
+                                <p>CouchDB application example repo:<a target="_blank"
+                                                               href="https://github.com/arulkumar-lab/couchdb-express-pug">CouchDB
+                                    Express Pug Application</a></p>
+                            </div>
+                            <hr class="margin-topbottom-clear"/>
+                            <div class="line-content" style="">
+                                <h2 class="title">PouchDB react CRUD userlist</h2>
+                                <div class="client-app-container">
+                                            <div class="profile-width padding-all-0">
+                                            <img src="images/profile.JPG" class="user">                        </div>
+                              <div class="gen-col-9 padding-all-0">
+                                        <h3 class="title" itemprop="name" itemscope=""
+                                itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
+                                        <h3 class="publish">Updated: 13th Feb 2020</h3>
+                                    </div>
+                                </div>                        
+                                <p>PouchDB stores the data into IndexedDB in all modern browsers. Users store the data into browser and
+                                    work with offline. IndexedDB data sync with HTTP service or API call to presist the information.
+                                    Reduce the loading time and connectivity problems. It will work offline mode and once the server up
+                                    and running IndexedDB sync with server.</p>
+                                <p>PouchDB supports/integrate all front-end library and web framework. PouchDB requires modern ES5
+                                    environment. Using pouchDB database perform the CRUD operation and query the records.</p>
+                                <p>PouchDB prefers IndexedDB operations and fallback hooks to WebSQL, HTTP or LevelDB adaptors.It's sync
+                                    with couchDB and persist the customer data. It's support many ways to implement for example, node
+                                    npm or browser only or CDN package.</p>
+                                <p>key points:</p>
+                                <p>PouchDB stores the data in-memory or local storage as well.</p>
+                                <ul>
+                                    <li>1. Packages bundle available in presets, plugins and utilities</li>
+                                    <li>2. Pouchdb replication API exposed through replicate() and sync() method</li>
+                                </ul>
+                
+                                <p>Sample application repo:<a target="_blank" href="https://github.com/arulkumar-lab/pouchdb-crud-app">PouchDB
+                                    React Application</a></p>
+                                <hr class="margin-topbottom-clear"/>
+                            </div>
+                            <div class="line-content" style="">
+                                <h2 class="title">Svelte component framework</h2>
+                                <div class="client-app-container">
+                                            <div class="profile-width padding-all-0">
+                                            <img src="images/profile.JPG" class="user">                        </div>
+                              <div class="gen-col-9 padding-all-0">
+                                        <h3 class="title" itemprop="name" itemscope=""
+                                itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
+                                        <h3 class="publish">Updated: 03rd Feb 2020</h3>
+                                    </div>
+                                </div>                        
+                                <p>Svelte is a component framework similar like react/vue framework. React is state driven code and
+                                    virtual DOM it's very tough to understand and complexity while development for regular techies.
+                                    Svelte converts the JavaScript at compile time and there is no dependencies on run-time. This means
+                                    no virtual DOM, no frameworks on top of frameworks, and no framework to load at runtime.</p>
+                                <p>so no Angular $scope, no React this.state, and no Vue data. Instead, use lets everywhere to get
+                                    assignable state values and update the values.</p>
+                                <p>key points:</p>
+                                <ul>
+                                    <li>1. Components based framework and maintain the value scope based on lets variable</li>
+                                    <li>2. Complete bundle code will be ready on compile time no dependencies on run-time</li>
+                                    <li>3. Components in-line styles to be clear and easy to development</li>
+                                    <li>4. Svelte publish as a local development and web based module</li>
+                                </ul>
+                
+                                <p>Sample application repo:<a target="_blank" href="https://github.com/arulkumar-lab/svelte-app.git">Svelte
+                                    Application</a></p>
+                                <hr class="margin-topbottom-clear"/>
+                            </div>
+                            <div class="line-content">
+                                <h2 class="title">Basic knowledge of SEO(Search Engine Optimization)</h2>
+                                <div class="client-app-container">
+                                            <div class="profile-width padding-all-0">
+                                            <img src="images/profile.JPG" class="user">                        </div>
+                              <div class="gen-col-9 padding-all-0">
+                                        <h3 class="title" itemprop="name" itemscope=""
+                                itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
+                                        <h3 class="publish">Updated: 03rd Dec 2019</h3>
+                                    </div>
+                                </div>
+                                <p>Front-end web developer technically heard the internet trendy word SEO(Search Engine Optimization).
+                                    It's allowing visibility of a website in modern search engines. Internet users always using search
+                                    keywords and crawling the pages. SEO plays major role in web development in consumer point of view
+                                    to improve global/local business and solutions.</p>
+                                <p>
+                                    Developer things to remember basic Key points:
+                                <ul>
+                                    <li>1. Use proper keywords in meta tags, title and tags for all the pages</li>
+                                    <li>2. Sitemap on your website keep xml copy</li>
+                                    <li>3. robots file to define the paths for allowing/disallowing path</li>
+                                    <li>4. URL path and make sure structured and meaningful</li>
+                                    <li>5. External site links use the rel="nofollow" tags if not required to collect meta data</li>
+                                    <li>6. 404 error page to handle content broken or links</li>
+                                </ul>
+                                </p>
+                                <hr class="margin-topbottom-clear"/>
+                            </div>
+                            <div class="line-content">
+                                <h2 class="title">How important to validate JSON schema</h2>
+                                                        <div class="client-app-container">
+                                            <div class="profile-width padding-all-0">
+                                            <img src="images/profile.JPG" class="user">                        </div>
+                              <div class="gen-col-9 padding-all-0">
+                                        <h3 class="title" itemprop="name" itemscope=""
+                                itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
+                                        <h3 class="publish">Dated: 20th Nov 2020</h3>
+                                    </div>
+                                </div>
+                                <p>JSON schema is very simple and organize the model object. Developing applications are loosely coupled
+                                    to maintain very easily. JSON object transferring in-between front-end and micro-services
+                                    application layer. JSON schema validation to maintain the clear, human-readable, and
+                                    machine-readable documentation. Because data objects performing the validation and we known the
+                                    object types for doing business method operations. Once the model has been solidified, enforce some
+                                    standards and take advantage of both flexibility of the document model along with data
+                                    validation.</p>
+                                <blockquote>
+                    <pre>
+                    <code>
+                    {
+                    "$schema": "http://json-schema.org/draft-07/schema#",
+                    "$id": "http://example.com/product.schema.json",
+                    "title": "Product",
+                    "description": "A product from Acme's catalog",
+                    "type": "object",
+                    "properties": {
+                        "productId": {
+                        "description": "The unique identifier for a product",
+                        "type": "integer"
+                        }
+                    },
+                    "required": [ "productId" ]
+                    }
+                
+                    <strong>input:</strong>
+                    {
+                        "productId":123
+                    }
+                    </code>
+                    </pre>
+                                </blockquote>
+                                <p>Ref: <a target="_blank" href="https://www.jsonschemavalidator.net/">JSON Schema validator</a></p>
+                                <hr class="margin-topbottom-clear"/>
+                            </div>
+                
+                            <div class="line-content">
+                                <h2 class="title">Avoid the trash and re-build the old laptop</h2>
+                                <div class="client-app-container">
+                                            <div class="profile-width padding-all-0">
+                                            <img src="images/profile.JPG" class="user">                        </div>
+                              <div class="gen-col-9 padding-all-0">
+                                        <h3 class="title" itemprop="name" itemscope=""
+                                itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
+                                        <h3 class="publish">Dated: 13th Nov 2019</h3>
+                                    </div>
+                                </div>
+                                <p>Every year holiday season, customers tempted to buy new laptop with higher technologies. Think about
+                                    few hours or days how to re-use the broken/old laptop. Find out the online videos and articles you
+                                    will get more valuable tips.</p>
+                                <p>
+                                    Things to do before trash
+                                </p>
+                                <ul>
+                                    <li>1. Give to someone or relatives if they are ready to repair or re-use if they like.</li>
+                                    <li>2. Spend sometime to identify the problem (i.e. screen broken, motherboard failure, hard disk
+                                        problem, power card/pin problem)
+                                    </li>
+                                    <li>3. Make a NAS Home server online you will get detailed videos and steps</li>
+                                    <li>4. Low configured pc/laptop using create own security camera in your home.</li>
+                                    <li>5. Setup like picture frame</li>
+                                </ul>
+                
+                                <p>Decorate home using repaired pc/laptop</p>
+                                <ul>
+                                    <li>1. If you have old PC cabinet don't throw and re-use the decorated shelves in your garage/book
+                                        shelves/DVD shelves
+                                    </li>
+                                    <li>2. Unused/repaired motherboards make it coffee-table decoration (glass covered decorated ideas
+                                        will be good to avoid dust and sharp edges will not hit)
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul id="pagin">
+                            </ul>
+                        </div>
+                    </main>
+                    <footer role="contentinfo">
+                        <div id="lab_social_icon_footer" class="footer">
+                            <div class="container">
+                                <div class="margin-side">
+                                    <a href="#body-content" class="fa-small"><i id="scroll-top"
+                                                                                class="fa fa-arrow-up fa-lg social"></i>Top</a>
+                                </div>
+                                <div class="margin-side social-icons">
+                                    <a aria-label="Twitter" rel="noopener noreferrer" target="_blank"
+                                       href="https://twitter.com/@imarulkumar1"><i id="social-tw"
+                                                                                   class="fa fa-twitter-square fa-3x social"></i></a>
+                                    <a aria-label="Email" rel="noopener noreferrer" target="_blank" href="mailto:arul.ui.dev@gmail.com"><i
+                                            id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                                            <a aria-label="Pexels Photography" rel="noopener noreferrer" target="_blank" href="https://www.pexels.com/@arul-ui-2759067"><i id="social-fb"
+                                                                                                    class="fa fa-picture-o fa-3x social"></i></a>                    
+                                    <a aria-label="You Tube channel" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/imarulkumar"><i id="social-gp"
+                                                                                                         class="fa fa-youtube fa-3x social"></i></a>
+                                    <p>&#169;Developed by Arul 2020</p>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </footer>
                 </div>
-            </div>
-        </div>
-        <h1 class="invisible">Arul UI page</h1>
-    </header>
-    <main role="main">
-        <div class="main-content margin-side">
-            <div class="line-content" style="">
-                <h2 class="title">Apache CouchDB Express Pug Module</h2>
-                <h3 class="title" itemprop="name" itemscope=""
-		    itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
-                <h3 class="publish">Updated: 21th Feb 2020</h3>
-                <p>Apache CouchDB store your data on JSON natively with document store. CouchDB API access method
-                    supports RESTful HTTP/JSON service to access the application.</p>
-                <p>Fauxton is the browser UI application to access the couchDB database, replication, cluster,
-                    replication and results. CouchDB uses MapReduce methods for API service and also access rights for
-                    users can be defined per database.</p>
-                <p>Queries can use the built-in _all_docs index or custom indexes, specified using the _index
-                    endpoint.</p>
-                <p>CouchDB application example repo:<a target="_blank"
-                                               href="https://github.com/arulkumar-lab/couchdb-express-pug">CouchDB
-                    Express Pug Application</a></p>
-            </div>
-            <hr class="margin-topbottom-clear"/>
-            <div class="line-content" style="">
-                <h2 class="title">PouchDB react CRUD userlist</h2>
-                <h3 class="title" itemprop="name" itemscope=""
-		    itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
-                <h3 class="publish">Updated: 13th Feb 2020</h3>
-                <p>PouchDB stores the data into IndexedDB in all modern browsers. Users store the data into browser and
-                    work with offline. IndexedDB data sync with HTTP service or API call to presist the information.
-                    Reduce the loading time and connectivity problems. It will work offline mode and once the server up
-                    and running IndexedDB sync with server.</p>
-                <p>PouchDB supports/integrate all front-end library and web framework. PouchDB requires modern ES5
-                    environment. Using pouchDB database perform the CRUD operation and query the records.</p>
-                <p>PouchDB prefers IndexedDB operations and fallback hooks to WebSQL, HTTP or LevelDB adaptors.It's sync
-                    with couchDB and persist the customer data. It's support many ways to implement for example, node
-                    npm or browser only or CDN package.</p>
-                <p>key points:</p>
-                <p>PouchDB stores the data in-memory or local storage as well.</p>
-                <ul>
-                    <li>1. Packages bundle available in presets, plugins and utilities</li>
-                    <li>2. Pouchdb replication API exposed through replicate() and sync() method</li>
-                </ul>
-
-                <p>Sample application repo:<a target="_blank" href="https://github.com/arulkumar-lab/pouchdb-crud-app">PouchDB
-                    React Application</a></p>
-                <hr class="margin-topbottom-clear"/>
-            </div>
-            <div class="line-content" style="">
-                <h2 class="title">Svelte component framework</h2>
-                <h3 class="title" itemprop="name" itemscope=""
-		    itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
-                <h3 class="publish">Updated: 03rd Feb 2020</h3>
-                <p>Svelte is a component framework similar like react/vue framework. React is state driven code and
-                    virtual DOM it's very tough to understand and complexity while development for regular techies.
-                    Svelte converts the JavaScript at compile time and there is no dependencies on run-time. This means
-                    no virtual DOM, no frameworks on top of frameworks, and no framework to load at runtime.</p>
-                <p>so no Angular $scope, no React this.state, and no Vue data. Instead, use lets everywhere to get
-                    assignable state values and update the values.</p>
-                <p>key points:</p>
-                <ul>
-                    <li>1. Components based framework and maintain the value scope based on lets variable</li>
-                    <li>2. Complete bundle code will be ready on compile time no dependencies on run-time</li>
-                    <li>3. Components in-line styles to be clear and easy to development</li>
-                    <li>4. Svelte publish as a local development and web based module</li>
-                </ul>
-
-                <p>Sample application repo:<a target="_blank" href="https://github.com/arulkumar-lab/svelte-app.git">Svelte
-                    Application</a></p>
-                <hr class="margin-topbottom-clear"/>
-            </div>
-            <div class="line-content">
-                <h2 class="title">Basic knowledge of SEO(Search Engine Optimization)</h2>
-                <h3 class="title" itemprop="name" itemscope itemtype="http://schema.org/Person">By&nbsp;<span>Arul</span></h3>
-                <h3 class="publish">Updated: 03rd Dec 2019</h3>
-                <p>Front-end web developer technically heard the internet trendy word SEO(Search Engine Optimization).
-                    It's allowing visibility of a website in modern search engines. Internet users always using search
-                    keywords and crawling the pages. SEO plays major role in web development in consumer point of view
-                    to improve global/local business and solutions.</p>
-                <p>
-                    Developer things to remember basic Key points:
-                <ul>
-                    <li>Use proper keywords in meta tags, title and tags for all the pages</li>
-                    <li>Sitemap on your website keep xml copy</li>
-                    <li>robots file to define the paths for allowing/disallowing path</li>
-                    <li>URL path and make sure structured and meaningful</li>
-                    <li>External site links use the rel="nofollow" tags if not required to collect meta data</li>
-                    <li>404 error page to handle content broken or links</li>
-                </ul>
-                </p>
-                <hr class="margin-topbottom-clear"/>
-            </div>
-            <div class="line-content">
-                <h2 class="margin-bottom-0">How important to validate JSON schema</h2>
-                <p class="margin-topbottom-clear xsmall" itemprop="name" itemscope itemtype="http://schema.org/Person">
-                    <strong><i>Author: Arul</i></strong></p>
-                <p class="margin-topbottom-clear xsmall"><strong><i>Dated: 20th Nov 2020</i></strong></p>
-                <p>JSON schema is very simple and organize the model object. Developing applications are loosely coupled
-                    to maintain very easily. JSON object transferring in-between front-end and micro-services
-                    application layer. JSON schema validation to maintain the clear, human-readable, and
-                    machine-readable documentation. Because data objects performing the validation and we known the
-                    object types for doing business method operations. Once the model has been solidified, enforce some
-                    standards and take advantage of both flexibility of the document model along with data
-                    validation.</p>
-                <blockquote>
-	<pre>
-	<code>
-	{
-	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "http://example.com/product.schema.json",
-	"title": "Product",
-	"description": "A product from Acme's catalog",
-	"type": "object",
-	"properties": {
-		"productId": {
-		"description": "The unique identifier for a product",
-		"type": "integer"
-		}
-	},
-	"required": [ "productId" ]
-	}
-
-	<strong>input:</strong>
-	{
-		"productId":123
-	}
-	</code>
-	</pre>
-                </blockquote>
-                <p>Ref: <a target="_blank" href="https://www.jsonschemavalidator.net/">JSON Schema validator</a></p>
-                <hr class="margin-topbottom-clear"/>
-            </div>
-
-            <div class="line-content" style="">
-                <h2 class="margin-bottom-0">Avoid the trash and re-build the old laptop</h2>
-                <p class="margin-topbottom-clear xsmall" itemprop="name" itemscope=""
-                   itemtype="http://schema.org/Person"><strong><i>Author: Arul</i></strong></p>
-                <p class="margin-topbottom-clear xsmall"><strong><i>Dated: 13th Nov 2020</i></strong></p>
-                <p>Every year holiday season, customers tempted to buy new laptop with higher technologies. Think about
-                    few hours or days how to re-use the broken/old laptop. Find out the online videos and articles you
-                    will get more valuable tips.</p>
-                <p>
-                    Things to do before trash
-                </p>
-                <ul>
-                    <li>1. Give to someone or relatives if they are ready to repair or re-use if they like.</li>
-                    <li>2. Spend sometime to identify the problem (i.e. screen broken, motherboard failure, hard disk
-                        problem, power card/pin problem)
-                    </li>
-                    <li>3. Make a NAS Home server online you will get detailed videos and steps</li>
-                    <li>4. Low configured pc/laptop using create own security camera in your home.</li>
-                    <li>5. Setup like picture frame</li>
-                </ul>
-
-                <p>Decorate home using repaired pc/laptop</p>
-                <ul>
-                    <li>1. If you have old PC cabinet don't throw and re-use the decorated shelves in your garage/book
-                        shelves/DVD shelves
-                    </li>
-                    <li>2. Unused/repaired motherboards make it coffee-table decoration (glass covered decorated ideas
-                        will be good to avoid dust and sharp edges will not hit)
-                    </li>
-                </ul>
-            </div>
-            <ul id="pagin">
-            </ul>
-        </div>
-    </main>
-    <footer role="contentinfo">
-        <div id="lab_social_icon_footer" class="footer">
-            <div class="container">
-                <div class="margin-side">
-                    <a href="#body-content" class="fa-small"><i id="scroll-top"
-                                                                class="fa fa-arrow-up fa-lg social"></i>Top</a>
-                    <h2>Footer display</h2>
-                </div>
-                <div class="margin-side social-icons">
-                    <!--
-			<a aria-label="Facebook" rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/bootsnipp"><i id="social-fb"
-                                                                                    class="fa fa-facebook-square fa-3x social"></i></a>                    
-                    <a aria-label="Google Plus" rel="noopener noreferrer" target="_blank" href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
-                                                                                         class="fa fa-google-plus-square fa-3x social"></i></a>
--->
-                    <a aria-label="Twitter" rel="noopener noreferrer" target="_blank"
-                       href="https://twitter.com/@imarulkumar1"><i id="social-tw"
-                                                                   class="fa fa-twitter-square fa-3x social"></i></a>
-                    <a aria-label="Email" rel="noopener noreferrer" target="_blank" href="mailto:arul.ui.dev@gmail.com"><i
-                            id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-                    <p>&#169;Developed by Arul 2020</p>
-                </div>
-            </div>
-
-        </div>
-    </footer>
-</div>
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="./workbox-sw.js"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155763128-1"></script>
-</body>
-</html>
+                <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+                <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+                <script src="js/plugins.js"></script>
+                <script src="js/main.js"></script>
+                <script src="./workbox-sw.js"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155763128-1"></script>
+                </body>
+                </html>
