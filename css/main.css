@@ -39,7 +39,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #d0b815;
     margin: 1em 0;
     padding: 0;
 }
@@ -207,6 +207,9 @@ body {
   margin: 0;
   padding: 0;
 }
+main {
+	background: #f7f4e6;
+}
 nav[class="select"] {
     width: 100%;
   color: #000;  
@@ -279,7 +282,7 @@ nav[class="select"] ul > li > a {
 .menu,
 .side-panel {
     background: #e6e6e6;
-    color: #000000;
+    color: #0e0e0e;
 }
 
 header {
@@ -287,7 +290,6 @@ header {
     width: 100%;
 }
 .menu-sec {
-    margin-top: 5em;
     float: left;
     width: 100%;
     display: inline;
@@ -301,7 +303,8 @@ header {
     margin-right: 0;
     float: right;
   display: block;
-  margin-top: 1em;
+  margin-left: -6em;
+  letter-spacing: normal;
 }
 
 .toggle {
@@ -445,25 +448,30 @@ header {
 .grid-container header > div,
 .grid-container main > div,
 .grid-container footer > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #f7f4e6;
     text-align: left;    
 }
 .grid-container .main-content .line-content div,
-.grid-container .main-content .line-content p {
-  font-size: 1.3rem;
-  text-align: left;
-  margin-top: .5em;
+.grid-container .main-content .line-content p, .line-content ul li {
+  font-size: 1.2rem;
+    text-align: left;
+    font-weight: 400;
+    margin-top: .5em;
+    letter-spacing: .4px;
+}
+.main-content .line-content ul li {
+	list-style: none;
 }
 .dark .logo-banner {
     background: #000;
 }
 
 .logo-banner {
-    min-height: 15.3em;
+    min-height: 18.5em;
 }
 
 .logo-banner, div.footer {
-    background: #e3e3e3;
+    background: #f9f5cf;
 }
 
 .grid-3 {
@@ -494,7 +502,7 @@ header {
     font-family: 'Anton', sans-serif;
     perspective: 1000px;
     perspective-origin: 200px 40px;
-    margin-top: 3em;
+    margin-top: 5em;
   margin-left: 1em;
 }
 
@@ -510,7 +518,7 @@ header {
     cursor: pointer;
     display: inline-block;
     font-size: 8rem;
-    font-weight: 700;
+    font-weight: 400;
     user-select: none;
     line-height: .8;
 }
@@ -610,7 +618,7 @@ header {
 
 #lab_social_icon_footer {
     padding: 40px 0;
-    background-color: #dedede;
+    background-color: #f9f5cf;
 }
 
 #lab_social_icon_footer .social-icons a {
@@ -619,8 +627,9 @@ header {
     display: inline-block;
 }
 
+
 @media screen and (min-width: 640px) {
-    #lab_social_icon_footer .social-icons a:not(:last-child) {
+    #lab_social_icon_footer .social-icons a:not(:last-of-type) {
         border-right: 2px solid #0d0d0d;
     }
 }
@@ -734,6 +743,7 @@ header {
 /* small screens */
 /*@media screen and (max-width: 44em) {*/
 @media screen and (max-width: 32em) {
+
     nav[class="select"] ul {
         display: none;
     }
@@ -874,13 +884,16 @@ blockquote {
     width: 70%;
 }
 .social-icons p{
-  font-size: 7px;
+  font-size: 12px;
 }
 .grid-container .main-content .xsmall {
   font-size: .5em;
 }
 .line-content a {
-    color: blue;
+    color: #a78304;
+}
+.line-content a:hover {
+    color: #e4cd5a;
 }
 .dark .line-content a {
     color: yellow;
@@ -1210,10 +1223,12 @@ h3.publish span {
     color: #3f94bd;
 }
 h2.title {
-    margin: 0 0 .2em;
-    font-size: 1.9rem;
-    font-weight: 700;
+	margin: 2em 0 .4em;
+    font-size: 2.1rem;
+    font-weight: 500;
     text-align: left;
+    line-height: 1.7;
+    letter-spacing: 5px;
 }
 p small {
     font-size: .7em;
@@ -1977,4 +1992,13 @@ tfoot th:first-child {
 .finance-report-statement.active .dropdown {
     border-bottom: 1px solid rgba(0,0,0,0.2);
     max-height: 400px;
+}
+
+.user {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  object-fit: cover;
 }
