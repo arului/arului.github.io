@@ -1,0 +1,144 @@
+.erich-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+.erich-black, .erich-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.erich-display-topright {
+     position: absolute;
+     right: 0; 
+     top: 0; 
+}
+.erich-padding {
+     padding: 8px 16px!important;
+}
+.fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\f00d";
+}
+ .erich-button {
+    border: none;
+    display: inline-block;
+    padding: 3px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+	line-height: 2.2em;
+}
+.erich-xxlarge {
+    font-size: 36px!important;
+}
+
+.erich-top,.erich-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+.erich-button:hover {
+    color: #000!important;
+    background-color: #cac665!important;
+}
+
+.erich-top {
+    top: 0
+}
+.erich-white, 
+.erich-hover-white:hover {
+    color: #000!important;
+    background-color: #e8e4b8!important;
+}
+.erich-right {
+    float: right!important;
+}
+
+
+.erich-bar-block .erich-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+.erich-bar-block.erich-center .erich-bar-item {
+    text-align: center;
+}
+.erich-text-grey, 
+.erich-hover-text-grey:hover, 
+.erich-text-gray, 
+.erich-hover-text-gray:hover {
+    color: #757575!important;
+}
+.erich-bar {
+    min-height: 3em;
+}
+.menu-sec span.erich-button {
+	line-height: normal
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.tabbed-menu, 
+  .regular-link {
+    display: none;
+  }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.tabbed-menu {
+    display: none;
+  }
+  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.menu-sec {
+		display: none;
+	}
+	.tabbed-menu,
+	.erich-bar-head-text  {
+		display: inline-block;
+				letter-spacing: normal;
+	}	
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.menu-sec {
+		display: none;
+	}
+	.tabbed-menu,
+	.erich-bar-head-text  {
+		display: inline-block;
+				letter-spacing: 4px;
+	}	
+	}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+.menu-sec {
+		display: none;
+	}
+	.tabbed-menu,
+	.erich-bar-head-text  {
+		display: inline-block;
+		letter-spacing: 4px;
+	}	
+	}
+	.profile-width {
+	width: 4em;
+	float: left;
+	}
