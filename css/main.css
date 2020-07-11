@@ -267,13 +267,13 @@ nav[class="select"] ul > li > a {
 .dark .header,
 .dark .footer {
     background: #060603;
-    color: #ffffff;
+    color: #41e5ff;
 }
 
 .dark .grid-container, .dark .main-content, .dark .menu,
 .dark .side-panel {
-    background: #212020;
-    color: #fff;
+    background: #353223;
+    color: #72e5fd;
 }
 
 .header,
@@ -463,7 +463,11 @@ header {
 	list-style: none;
 }
 .dark .logo-banner {
-    background: #000;
+    background: #31312f;
+}
+
+.dark main {
+	background: #353223;
 }
 
 .logo-banner {
@@ -692,13 +696,13 @@ header {
 }
 
 .dark #lab_social_icon_footer .social-icons a {
-    color: #fff;
+    color: #72e5fd;
     padding: 0 5rem 1rem 2rem;
     display: inline-block;
 }
 
 @media screen and (min-width: 640px) {
-    .dark #lab_social_icon_footer .social-icons a:not(:last-child) {
+    .dark #lab_social_icon_footer .social-icons a:not(:last-of-type) {
         border-right: 2px solid #fff;
     }
 }
