@@ -49,6 +49,11 @@
     background-color: #cac665!important;
 }
 
+.dark .erich-button:hover {
+    color: #000!important;
+    background-color: #d2dfe6!important;
+}
+
 .erich-top {
     top: 0
 }
@@ -57,6 +62,13 @@
     color: #000!important;
     background-color: #e8e4b8!important;
 }
+
+.dark .erich-white, 
+.dark .erich-hover-white:hover {
+    color: #fff!important;
+    background-color: #197588!important;
+}
+
 .erich-right {
     float: right!important;
 }
